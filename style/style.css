@@ -179,6 +179,41 @@
   text-align: left;
   color: #000000;
 }
+.wrapper-pionter{
+  cursor: pointer;
+}
+.wrapper-open-accaunt{
+  position: absolute;
+  top: 100px;
+  right: 0;
+  display: none;
+  background-color: #fafafa;
+  z-index: 100;
+  padding: 20px 30px;
+}
+.wrapper-open-accaunt img{
+  width: 24px;
+}
+.wrapper-acc{
+  width: 134px;
+  font-family: Mardoto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #353432;
+
+}
+.accaunt-open-line{
+  width: 332px;
+  border: 1px solid #D8D8D8
+}
+.wrapper-open-accaunt div{
+  padding-left: 10px;
+  margin: 26px 26px;
+  cursor: pointer;
+}
 
 /* Section  wrapper-section Slider Bootstrap */
 .wrapper-section {
@@ -638,12 +673,29 @@
   .wrapper-logo-leng .wrapper-select {
     display: none;
   }
-
+  .wrapper-login{
+    display: block;
+  }
+.wrapper-login{
+    display: block;
+  }
+    .wrapper-login img{
+    display: block !important;
+  }
+   .wrapper-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
   /* .logo-cont {
     margin-left: 50px;
   } */
 }
 @media screen and (max-width: 690px) {
+  .wrapper-login{
+    display: block;
+  }
   .container-flex-left {
     display: flex;
     flex-wrap: wrap;
@@ -656,10 +708,34 @@
   .container-footer-bottom {
     margin-top: 20px;
   }
+  .wrapper-login{
+    display: block;
+  }
+    .wrapper-login img{
+    display: block !important;
+  }
+   .wrapper-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
 }
 @media screen and (max-width: 550px) {
   .wrapper-logo-leng > span {
     display: none;
+  }
+  .wrapper-login{
+    display: block;
+  }
+    .wrapper-login img{
+    display: block !important;
+  }
+   .wrapper-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
   }
 }
 
@@ -675,6 +751,15 @@
   .logo-cont {
     position: absolute;
     bottom: 7px;
+  }
+  .wrapper-login img{
+    display: block !important;
+  }
+   .wrapper-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
   }
  
 }
