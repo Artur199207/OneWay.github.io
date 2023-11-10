@@ -667,10 +667,16 @@
   .wrapper-logo-leng .wrapper-burger {
     display: block;
   }
+   .container-info .cont-left{
+    width: 400px;
+    position: relative;
+    left: 96px;
+  }
   .logo-cont {
     position: absolute;
     bottom: 7px;
   }
+ 
 }
 @media screen and (min-width: 550px) {
   .container-open-burg {
