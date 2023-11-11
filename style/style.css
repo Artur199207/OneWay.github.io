@@ -46,7 +46,7 @@
   height: 19px;
   cursor: pointer;
 }
-.wrapper-sign span {
+.wrapper-sign span a {
   font-family: Mardoto;
   font-size: 16px;
   font-weight: 700;
@@ -55,6 +55,7 @@
   text-align: left;
   color: #176d7e;
 }
+
 .frame1 {
   width: 130px;
   height: 19px;
@@ -217,7 +218,6 @@ color: #353432;
 
 /* Section  wrapper-section Slider Bootstrap */
 .wrapper-section {
-  max-width: 1920px;
   width: 100%;
   height: 552px;
   margin: 10px 0;
@@ -520,6 +520,262 @@ color: #353432;
   text-align: center;
 }
 
+
+/* Section block log-in */
+
+.wrapper-log-in{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background: #FAFAFA;
+  padding: 100px 100px;
+  
+}
+.wrapper-log-img{
+  display: flex;
+  align-items: center;
+}
+.container-fetch{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container-form{
+  width: 921px;
+  height: 681px;
+  background: white;
+  padding-inline: 116px;
+}
+.wrapper-name h3{
+  width: 243px;
+  font-family: Mardoto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0.18em;
+text-align: left;
+color: #26AA9D;
+
+}
+.wrapper-name p{
+  width: 324px;
+  font-family: Mardoto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #263238;
+  
+
+}
+.wrapper-input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin: 25px 0px;
+}
+.wrapper-input span{
+  width: 114px;
+  font-family: Mardoto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #263238;
+
+}
+.wrapper-name{
+  width: 100%;
+}
+.container-form1{
+ width: 100%;
+  height: 70px;
+  border-radius: 4px;
+  border: 1px solid #26AA9D
+}
+.check{
+  width: 22px;
+  height: 22px;
+  border: 2px solid #263238
+}
+.cont-flex span{
+  width: 127px;
+  font-family: Mardoto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: right;
+color: #263238;
+
+}
+.wrapper-flex-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.wrapper-flex-input span{
+  width: 222px;
+  font-family: Mardoto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: right;
+color: #263238;
+
+}
+.btn button{
+  width: 263px;
+  border-radius: 4px;
+  border: none;
+  background: #26AA9D;
+  color: #FFFFFF;
+
+font-family: Mardoto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.wrapper-btn{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin: 35px 0;
+}
+.wr-cont{
+  width: 298px;
+  font-family: Mardoto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: right;
+color:#263238;
+}
+.we-cont{
+font-family: Mardoto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: right;
+color:#F8931F;
+cursor: pointer;
+}
+
+
+
+
+/* Section Գրանցում SignIp */
+.container-sign{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 51px;
+  width: 100%;
+  margin: 30px 0px;
+  padding-inline: 100px;
+  padding: 100px 0;
+}
+.wrapper-sign-img{
+  display: flex;
+  align-items: self-end;
+}
+
+.wrapper-form-signUp{
+  width: 921px;
+  height: 864px;
+  border-radius: 4px;
+  border: 1px solid #E8E8E8;
+  padding-inline: 100px;
+}
+.container-paragraf h3{
+  width: 436px;
+  font-family: Mardoto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0.18em;
+text-align: left;
+color: #F8931F;
+
+}
+.container-paragraf p{
+  width: 324px;
+  font-family: Mardoto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #263238;
+
+}
+.container-sign-input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px 0px;
+}
+.container-sign-input span{
+  width: 250px;
+  font-family: Mardoto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #263238;
+
+}
+.signUP-contaent{
+  height: 70px;
+  border: 1px solid #26AA9D
+}
+.wr-btn button{
+  width: 263px;
+  height: 44px;
+  background: #F8931F;
+  border: none;
+  border-radius: 4px;
+}
+.sign-left{
+  width: 280px;
+  font-family: Mardoto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: right;
+ color:#263238;
+
+}
+.sign-btn{
+  padding: 40px 0;
+}
+.sign-rigth{
+  width: 280px;
+  font-family: Mardoto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: right;
+ color:#26AA9D;
+cursor: pointer;
+}
+
+
 /* Footer   container-footer */
 
 .container-footer {
@@ -536,6 +792,7 @@ color: #353432;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 50px;
 }
 .container-flex-left {
   display: flex;
@@ -630,8 +887,9 @@ color: #353432;
 }
 .container-footer-bottom {
   display: flex;
-  align-items: end;
   justify-content: center;
+  padding-top: 32px;
+  margin-top: 86px;
 }
 .container-footer-bottom span {
   width: 551px;
@@ -645,10 +903,31 @@ color: #353432;
   margin-bottom: 30px;
 }
 /* Media Response */
-
+@media screen and (max-width: 1640px) {
+.wrapper-log-in{
+  padding-inline: 50px;
+}
+.wrapper-log-img{
+  width: calc(100%);
+  
+    display: flex;
+    justify-content: center;
+}
+  .wrapper-log-img img{
+    width: 400px;
+    height: 400px;
+  }
+}
 @media screen and (max-width: 1160px) {
   .wrapper-header .wrapper-navitel {
     display: none;
+  }
+  .wrapper-sign-img img{
+    width: 400px;
+    height: 400px;
+  }
+  .wrapper-form-signUp{
+    width: 800px;
   }
 }
 @media screen and (max-width: 930px) {
@@ -688,10 +967,10 @@ color: #353432;
     justify-content: center;
     gap: 4px;
   }
-  /* .logo-cont {
-    margin-left: 50px;
-  } */
+
 }
+
+
 @media screen and (max-width: 690px) {
   .wrapper-login{
     display: block;
@@ -736,6 +1015,10 @@ color: #353432;
     align-items: center;
     justify-content: center;
     gap: 4px;
+  }
+  .wrapper-log-img img{
+    width: 160px;
+    height: 160px;
   }
 }
 
