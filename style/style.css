@@ -136,7 +136,6 @@
   left: 0;
   width: 100%;
   height: 251px;
-  border: solid 1px;
   display: none;
   background: #fafafa;
   z-index: 100;
@@ -186,7 +185,7 @@
 .wrapper-open-accaunt {
   position: absolute;
   top: 100px;
-  right: 0;
+  right: 38px;
   display: none;
   background-color: #fafafa;
   z-index: 100;
@@ -214,6 +213,155 @@
   margin: 26px 26px;
   cursor: pointer;
 }
+
+
+
+
+/* header -modal  start */
+.modal{
+  left: -125px !important;
+  top: 100px !important;
+}
+.modal-content{
+  width: 840px !important;
+  height: 495px !important;
+}
+.modal-title{
+  width: 208px;
+  font-family: Mardoto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #263238;
+
+}
+.close.btn-close span{
+ font-size: 32px;
+}
+.modal-header{
+  border-bottom: none !important;
+}
+.wrapper-contry{
+  display: flex;
+  justify-content: start;
+  gap: 32px;
+  margin-bottom: 25px;
+}
+.contry-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 52px;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+}
+.contry-image img{
+  width: 32px;
+  height: 32px;
+}
+.wrapper-modal-line{
+  width: 720px;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 40px;
+}
+.wrapper-modal-weight{
+  width: 292px;
+  height: 52px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: 1px solid #D8D8D8;
+}
+.wrapper-modal-input{
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.wrapper-modal-weight span{
+  width: 118px;
+  font-family: Mardoto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #848484;
+
+}
+.wrapper-modal-kg{
+  width: 292px;
+  height: 52px;
+  padding: 10px 10px;
+    border-radius: 4px;
+  border: 1px solid #D8D8D8;
+}
+.wrapper-modal-weight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper-modal-down{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+
+}
+.wrapper-modal-kg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper-modal-kg span{
+  width: 46px;
+  font-family: Mardoto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #848484;
+
+}
+.wrapper-modal-Shipment{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+    height: 78px;
+    padding: 21px 18px 21px 18px;
+    border-bottom: 1px solid #26AA9D;
+    background: #FBFBFB;
+}
+.wrapper-modal-Shipment h3{
+  width: 166px;
+  font-family: Mardoto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #353432;
+
+}
+
+.wrapper-modal-Shipment span{
+  width: 81px;
+  font-family: Mardoto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #26AA9D;
+
+}
+/* header -modal  end */
+
+
 
 /* Section  wrapper-section Slider Bootstrap */
 .wrapper-section {
