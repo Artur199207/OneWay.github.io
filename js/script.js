@@ -12,7 +12,7 @@ openBurger.addEventListener("click", function () {
   }
   isOpen = !isOpen; // Toggle the open/close state
 });
-vector.addEventListener('click',()=>{
+vector.addEventListener('click',function(){
   if(newOpen){
     accauntOpen.style.display = 'none'
   }else{
