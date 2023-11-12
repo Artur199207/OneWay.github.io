@@ -939,8 +939,7 @@
   color: #263238;
 }
 .container-col-input span {
-  width: 205px;
-  min-height: 28px;
+
   font-family: Mardoto;
   font-size: 24px;
   font-weight: 400;
@@ -1050,8 +1049,6 @@
  top: 43px;
 }
 .container-col-password span{
-  width: 204px;
-  min-height: 23px;
   font-family: Mardoto;
 font-size: 20px;
 font-weight: 400;
