@@ -1,0 +1,262 @@
+@media (max-width: 1920px) {
+    .container-to-user {
+        background-size: 100% !important;
+    }
+}
+
+
+@media (max-width:400px) {
+    .wrapper-burger {
+        display: block;
+    }
+
+    .wrapper-navitel,
+    .wrapper-registr>span,
+    .wrapper-registr>img,
+    .frame1,
+    .frame2,
+    .frame3,
+    .wrapper-select,
+    .logo-cont,
+    .login-logo,
+    .wrapper-name p,
+    .container-footer1 {
+        display: none;
+    }
+
+    .response-logo {
+        display: block;
+        position: absolute;
+        left: 36%;
+        top: 10.5%;
+    }
+
+    .wrapper-burger {
+        position: absolute;
+        left: 5%;
+        top: 27%;
+    }
+
+    .wrapper-sign {
+        position: absolute;
+        left: 61%;
+        top: 34%;
+    }
+
+    .wrapper-header {
+        min-height: 70px;
+    }
+
+    .containerimage-sign-in {
+        display: block;
+        margin: -48% 0;
+        z-index: 5;
+    }
+
+    .wrapper-log-in {
+        overflow: hidden;
+    }
+
+    .wrapper-name h3 {
+        width: 106px;
+        min-height: 38px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.06em;
+        margin: 27% 33%;
+        position: relative;
+        top: 83px;
+    }
+
+    .wrapper-input span {
+        width: 76px;
+        min-height: 19px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+
+
+    }
+
+    .wrapper-input {
+        margin: 0;
+    }
+
+    .container-fetch {
+        margin: -24% 0px;
+        gap: 2px;
+    }
+
+
+    .container-form1 {
+        width: 353px;
+        height: 32px !important;
+        min-height: unset;
+    }
+
+    .cont-flex span {
+        width: 109px;
+        min-height: 14px;
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        margin: 8% 0;
+
+    }
+
+    .content-name-text {
+        width: 156px;
+        min-height: 14px;
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+
+
+    }
+
+    .wr-btn {
+        width: 353px;
+        margin: 3% 0;
+    }
+
+    .wr-cont {
+        width: 238px;
+        min-height: 19px;
+        font-weight: 400;
+        font-size: 16px;
+        margin: -7% 0;
+    }
+
+    #nonelogo {
+        display: none;
+    }
+
+    .container-flex-left {
+        margin: -74% 7%;
+    }
+
+    .container-footer-responsiver {
+        display: block;
+        background: #F6F6F6;
+        padding-inline: 20px;
+        position: relative;
+        top: -11px;
+        min-height: 460px;
+    }
+
+    .container-one-menu {
+        display: flex;
+    justify-content: space-between;
+    margin: -70% 0;
+    padding: 4% 0;
+    }
+
+    .main-footer-res li a {
+        text-decoration: none;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+
+    }
+
+    .rigth-footer-res li a {
+        text-decoration: none;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+
+    .back-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-icon h1 {
+        width: 114px;
+        min-height: 14px;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #26AA9D;
+
+    }
+
+    .contact-one {
+        display: flex;
+        gap: 10px;
+    }
+
+    .contact-one span {
+        width: 109px;
+        min-height: 16px;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #353432;
+
+    }
+
+    .wrapper-back {
+        margin: 73% 0;
+        display: flex;
+        gap: 71px;
+    }
+
+    .back_main-menu1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .back_main-menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+    .responde-logo-footer {
+        margin: -32% 46%;
+        position: relative;
+        bottom: 107px;
+        right: 5%;
+    }
+
+    .container-logistics span {
+        width: 264px;
+        min-height: 32px;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+
+    }
+
+    .container-logistics {
+        margin: 3% 11%;
+        display: flex;
+    }
+
+}
