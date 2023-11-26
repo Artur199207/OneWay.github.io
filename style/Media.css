@@ -5,7 +5,7 @@
 }
 
 
-@media (max-width:400px) {
+@media (max-width:600px) {
     .wrapper-burger {
         display: block;
     }
@@ -150,9 +150,9 @@
 
     .container-one-menu {
         display: flex;
-    justify-content: space-between;
-    margin: -70% 0;
-    padding: 4% 0;
+        justify-content: space-between;
+        margin: -70% 0;
+        padding: 4% 0;
     }
 
     .main-footer-res li a {
@@ -259,4 +259,103 @@
         display: flex;
     }
 
+    .container-web {
+        display: none;
+    }
+
+    .response-block {
+        display: block;
+        margin: -46% -12%;
+        z-index: 5;
+        background: none;
+    }
+
+    .container-sign {
+        background: none !important;
+    }
+
+    .wrapper-form-signUp {
+        width: 100%;
+        border: none;
+        padding: 0;
+        padding-inline: 20px;
+    }
+
+    .signUP-contaent {
+        border-radius: 8px;
+        width: 100%;
+        min-height: unset;
+        height: 47px;
+    }
+
+    .container-paragraf h3 {
+        width: 191px;
+        min-height: 38px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.06em;
+        margin: 40% 23%;
+
+    }
+
+    .container-paragraf p {
+        display: none;
+    }
+
+    .container-sign-input span {
+
+        min-height: 19px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+
+
+    }
+
+    .container-footer {
+        display: none;
+    }
+
+    .wr-btn {
+        width: 353px;
+        background: none;
+    }
+
+    .wr-btn button {
+        width: 353px;
+    }
+
+    .sign-left {
+
+        min-height: 19px;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+
+
+    }
+
+    .container-footer-responsiver {
+        display: block;
+    }
+
+    .wrapper-form-signUp {
+        margin: -17% 0%;
+    }
+
+    .container-sign-input {
+        position: relative;
+        bottom: 143px;
+    }
+
+    .sign-btn {
+        position: relative;
+        bottom: 170px;
+        margin: 26% 0;
+    }
 }
+

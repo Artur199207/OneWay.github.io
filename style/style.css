@@ -15,6 +15,9 @@ img {
 .response-logo,.containerimage-sign-in{
   display: none;
 }
+.response-block{
+  display: none;
+}
 .wrapper-header {
   display: flex;
   justify-content: space-around;
