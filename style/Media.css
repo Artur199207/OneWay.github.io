@@ -404,7 +404,7 @@
         position: relative;
         align-items: flex-end;
         padding-inline: 35px;
-margin: -31% 0;
+        margin: -31% 0;
 
     }
 
@@ -430,41 +430,46 @@ margin: -31% 0;
         margin: 2% 0;
     }
 
-    .container-one-block{
+    .container-one-block {
         position: relative;
     }
+
     .container-three-block {
         position: relative;
         bottom: 52px;
         left: 50px;
     }
-    
-    .container-two-block{
+
+    .container-two-block {
         position: relative;
         bottom: 27px;
         right: 61px;
-    
+
     }
+
     .container-position {
         position: absolute;
         right: 79%;
         top: 13px;
     }
-    .container-one-block span{
+
+    .container-one-block span {
         width: 204px;
-    min-height: 69px;
-   
-    position: absolute;
-    left: 64px;
-    top: 39px;
+        min-height: 69px;
+
+        position: absolute;
+        left: 64px;
+        top: 39px;
     }
-    .company-brand{
+
+    .company-brand {
         position: absolute;
         left: 82%;
         bottom: 10px;
     }
-    
-    .container-one-block span,.container-two-block span{
+
+    .container-one-block span,
+    .container-two-block span {
         font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
@@ -473,7 +478,8 @@ margin: -31% 0;
         text-align: center;
         color: #000000;
     }
-    .container-two-block span{
+
+    .container-two-block span {
         position: absolute;
         width: 177px;
         min-height: 46px;
@@ -481,13 +487,14 @@ margin: -31% 0;
         top: 34%;
 
     }
-    .container-position1{
+
+    .container-position1 {
         position: absolute;
         right: 83%;
         top: 5%;
     }
-      
-    .container-three-block span{
+
+    .container-three-block span {
         position: relative;
         bottom: 120px;
         left: 73px;
@@ -499,7 +506,49 @@ margin: -31% 0;
         letter-spacing: 0em;
         text-align: center;
         color: #000000;
+
+
+    }
+
+    .wrapper-info {
+        margin: -48% 0;
+    }
+
+    .info-content h3 {
+        width: 140px;
+        min-height: 28px;
+        font-family: Mardoto;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin: -5% 0;
+        text-transform: uppercase;
+
+    }
+
+    .wrapper-back-img span,.log-wr-sp {
+       width: 336px;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 16px !important;
+        color: #000000;  
+        position: relative;
+        bottom: 60px;
     
 
+    }
+.log-wrapper{
+    position: absolute;
+    color:   #F8931F !important;
+    top: -1px;
+}
+.log-wr-sp{
+    width: 311px !important;
+}
+    .container-line {
+        margin: 10% 0;
     }
 }
