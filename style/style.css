@@ -15,7 +15,8 @@ img {
 .response-logo,.containerimage-sign-in{
   display: none;
 }
-.response-block{
+.response-block,.container-slider-response,
+.media-red{
   display: none;
 }
 .wrapper-header {

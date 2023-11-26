@@ -20,14 +20,15 @@
     .logo-cont,
     .login-logo,
     .wrapper-name p,
-    .container-footer1 {
+    .container-footer1,
+    .hiden-res {
         display: none;
     }
 
     .response-logo {
         display: block;
         position: absolute;
-        left: 36%;
+        left: 42%;
         top: 10.5%;
     }
 
@@ -38,9 +39,10 @@
     }
 
     .wrapper-sign {
+        display: inline-block;
         position: absolute;
-        left: 61%;
-        top: 34%;
+        left: 64%;
+        top: 29%;
     }
 
     .wrapper-header {
@@ -128,7 +130,7 @@
         min-height: 19px;
         font-weight: 400;
         font-size: 16px;
-        margin: -7% 0;
+        margin: -35% 0;
     }
 
     #nonelogo {
@@ -357,5 +359,147 @@
         bottom: 170px;
         margin: 26% 0;
     }
-}
 
+    .w-100 {
+        min-height: 247px;
+        object-fit: cover;
+
+    }
+
+    .carousel-fade {
+        margin-top: -12px;
+    }
+
+    .section-middle-one h3 {
+        width: 235px;
+        min-height: 28px;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 3% 0;
+    }
+
+    .section-middle-one span {
+        width: 392px;
+        min-height: 48px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .section-middle-one {
+        margin: -63% 0;
+        gap: 0px;
+
+    }
+
+    .container-info {
+        display: none;
+    }
+
+    .container-slider-response {
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+        position: relative;
+        align-items: flex-end;
+        padding-inline: 35px;
+margin: -31% 0;
+
+    }
+
+    .wrapper-sign span a {
+        width: 42px;
+        min-height: 16px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+    }
+
+    .media-red {
+        display: block;
+        width: 392px;
+        min-height: 48px;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+        margin: 2% 0;
+    }
+
+    .container-one-block{
+        position: relative;
+    }
+    .container-three-block {
+        position: relative;
+        bottom: 52px;
+        left: 50px;
+    }
+    
+    .container-two-block{
+        position: relative;
+        bottom: 27px;
+        right: 61px;
+    
+    }
+    .container-position {
+        position: absolute;
+        right: 79%;
+        top: 13px;
+    }
+    .container-one-block span{
+        width: 204px;
+    min-height: 69px;
+   
+    position: absolute;
+    left: 64px;
+    top: 39px;
+    }
+    .company-brand{
+        position: absolute;
+        left: 82%;
+        bottom: 10px;
+    }
+    
+    .container-one-block span,.container-two-block span{
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+    }
+    .container-two-block span{
+        position: absolute;
+        width: 177px;
+        min-height: 46px;
+        right: 18%;
+        top: 34%;
+
+    }
+    .container-position1{
+        position: absolute;
+        right: 83%;
+        top: 5%;
+    }
+      
+    .container-three-block span{
+        position: relative;
+        bottom: 120px;
+        left: 73px;
+        min-height: 92px;
+        font-family: Mardoto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+    
+
+    }
+}
