@@ -2,6 +2,7 @@
     .container-to-user {
         background-size: 100% !important;
     }
+
 }
 
 
@@ -159,7 +160,6 @@
 
     .main-footer-res li a {
         text-decoration: none;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 16px;
@@ -171,7 +171,6 @@
 
     .rigth-footer-res li a {
         text-decoration: none;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 16px;
@@ -188,7 +187,6 @@
     .back-icon h1 {
         width: 114px;
         min-height: 14px;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
@@ -206,7 +204,6 @@
     .contact-one span {
         width: 109px;
         min-height: 16px;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 16px;
@@ -246,7 +243,6 @@
     .container-logistics span {
         width: 264px;
         min-height: 32px;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 16px;
@@ -420,7 +416,6 @@
         display: block;
         width: 392px;
         min-height: 48px;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 16px;
@@ -470,7 +465,6 @@
 
     .container-one-block span,
     .container-two-block span {
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 23px;
@@ -499,7 +493,6 @@
         bottom: 120px;
         left: 73px;
         min-height: 92px;
-        font-family: Mardoto;
         font-size: 14px;
         font-weight: 400;
         line-height: 23px;
@@ -517,7 +510,6 @@
     .info-content h3 {
        
         min-height: 28px;
-        font-family: Mardoto;
         font-size: 24px;
         font-weight: 400;
         line-height: 28px;
