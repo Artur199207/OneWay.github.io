@@ -22,7 +22,8 @@
     .login-logo,
     .wrapper-name p,
     .container-footer1,
-    .hiden-res {
+    .hiden-res,
+    .container-player {
         display: none;
     }
 
@@ -127,7 +128,6 @@
     }
 
     .wr-cont {
-        width: 238px;
         min-height: 19px;
         font-weight: 400;
         font-size: 16px;
@@ -319,7 +319,6 @@
 
     .wr-btn {
         width: 353px;
-        background: none;
     }
 
     .wr-btn button {
@@ -347,13 +346,13 @@
 
     .container-sign-input {
         position: relative;
-        bottom: 143px;
+        bottom: 141px;
     }
 
     .sign-btn {
         position: relative;
         bottom: 170px;
-        margin: 26% 0;
+        margin: 12% 0;
     }
 
     .w-100 {
@@ -508,7 +507,7 @@
     }
 
     .info-content h3 {
-       
+
         min-height: 28px;
         font-size: 24px;
         font-weight: 400;
@@ -521,26 +520,146 @@
 
     }
 
-    .wrapper-back-img span,.log-wr-sp {
-       width: 336px;
+    .wrapper-back-img span,
+    .log-wr-sp {
+
         font-size: 14px !important;
         font-weight: 400 !important;
         line-height: 16px !important;
-        color: #000000;  
+        color: #000000;
         position: relative;
         bottom: 60px;
-    
+
 
     }
-.log-wrapper{
-    position: absolute;
-    color:   #F8931F !important;
-    top: -1px;
-}
-.log-wr-sp{
-    width: 311px !important;
-}
+
+    .wrapper-back-img .log-wr-sp {
+        bottom: 82px;
+        right: 5px;
+
+    }
+
+    .log-wrapper {
+        position: absolute;
+        color: #F8931F !important;
+        top: -1px;
+    }
+
+    .log-wr-sp {
+        width: 311px !important;
+    }
+
     .container-line {
         margin: 10% 0;
     }
+
+    .container-player-response {
+        display: block;
+        margin-top: 400px;
+    }
+
+    .wrapper-player-main {
+        display: flex;
+        flex-direction: column;
+        margin: 165px 0;
+    }
+
+    .container-top-player {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 347px;
+        min-height: 224px;
+        background-image: url(../img/response/Vector59.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: -39% 6%;
+position: relative;
+    }
+
+    .container-top-player h1 {
+        min-height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #263238;
+    position: absolute;
+    left: 106px;
+    top: 73px;
+    text-transform: uppercase;
+
+    }
+
+    .response-div-line {
+        width: 263px;
+    min-height: 1px;
+    background: #26AA9D;
+    position: absolute;
+    top: 45%;
+    left: 44px;
+
+    }
+
+    .container-top-player span {
+        width: 353px;
+        min-height: 32px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #263238;
+        position: absolute;
+        top: 52%;
+        right: -1px;
+    
+
+    }
+
+    .container-top-player button {
+        width: 305px;
+        min-height: 44px;
+        border-radius: 4px;
+        background: #26AA9D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        position: absolute;
+        top: 69%;
+        left: 22px;
+    
+    }
+    .container-line-anime{
+        width: 143px;
+        min-height: 107px;
+        background-image: url(../img/response/line-anime.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: anim ease-in-out 1.5s infinite;
+        margin: 37% 20%;
+        position: relative;
+    }
+
+
+.wrapper-content-aboute{
+    display: none;
+}
+.about-res-dv{
+    display: block;
+    width: 393px;
+    min-height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 276px;
+}
+
 }
