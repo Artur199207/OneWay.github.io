@@ -35,6 +35,16 @@
     display: flex;
     gap: 30px;
   }
+  .add-flag-img{
+
+    width: 76px;
+    min-height: 52px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 4px;
+
+  }
   .add-flags img:hover{
     cursor: pointer;
   }
@@ -108,4 +118,10 @@
   border: 1px solid #26AA9D;
   border-radius: 4px;
   background-color: #FFFFFF;
+  }
+  .add-flags .add-flag-img:nth-child(1){
+    border: 1px solid #26AA9D !important;
+  }
+  .add-flags .add-flag-img{
+    border: 1px solid #D8D8D8;
   }
