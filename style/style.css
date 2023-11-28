@@ -923,10 +923,12 @@ pointer-events: visible !important;
 .wrapper-butt {
   width: 298px;
   min-height: 87px;
-  margin-top: 30px;
-  gap: 20px;
+  gap: 22px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  margin: 2% 0px;
+
 }
 .wr-btn {
   width: 263px;
@@ -2716,4 +2718,239 @@ letter-spacing: 0em;
 text-align: left;
 color: #000000;
   }
-/* about-responsive end */
+
+
+/* .addraddress-main-res  start */
+
+
+
+.address-res-inn{
+  width: 353px;
+  min-height: 616px;
+  margin: auto;
+  margin-top: 40px;
+}
+.address-res-h1{
+   width: 100%;
+   min-height: 28px;
+}
+.address-res-h1 h1{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+.address-count-res{
+  width: 100%;
+  min-height: 38px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.add-res-but1{
+  width: 171px;
+  min-height: 38px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.add-but1{
+ 
+  border-width: 0px, 1px, 1px, 0px;
+  background: #26AA9D;
+  border-width: 0px, 1px, 1px, 0px;
+  border-style: solid;
+  border-color: #26AA9D;
+
+}
+.add-res-but1 span{
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.add-but2 span{
+  
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #353432;
+}
+.address-list-res{
+  width: 353px;
+  min-height: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+}
+.add-list-res{
+  width: 100%;
+  min-height: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-res-left{
+  min-height: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.add-sp{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #26AA9D;
+}
+.add-sp-1{
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #848484;
+}
+
+.copy-res :hover{
+  cursor: pointer;
+}
+.add-res-line{
+  width: 100%;
+  border: 1px solid #D8D8D8
+}
+.response-adrres{
+  display: none;
+}
+.add-res-bott{
+  width: 353px;
+  min-height: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.res-bott-inn{
+  margin-top: 13px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.res-bott-inn span{
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #848484;
+text-transform: uppercase;
+}
+.address-res-inn{
+  display: none;
+}
+.container-order-bording button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+    width: 353px;
+    min-height: 65px;
+
+padding: 21px, 96px, 21px, 96px;
+border: 0px, 1px, 1px, 0px;
+background: #26AA9D;
+border: none;
+font-family: Mardoto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.container-open-ording{
+  width: 353px;
+  min-height: 80px;
+  background: linear-gradient(0deg, #D8D8D8, #D8D8D8),
+linear-gradient(0deg, #F5F5F5, #F5F5F5);
+border: 1px solid #D8D8D8;
+}
+.content-open-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  margin: 20px 0;
+}
+.container-open-bording1{
+  width: 353px;
+  min-height: 65px;
+  background:#F5F5F5 ;
+
+border: solid 1px  #26AA9D;
+border-top:none;
+margin: 0 20px;
+
+
+
+}
+.container-open-bording1 button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  width: 353px;
+  min-height: 65px;
+  border: none;
+}
+.container-open-bording1 button span{
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #353432;
+
+}
+.response-color{
+
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+color: #26AA9D !important;
+margin-left: 5px;
+
+
+}
+.container-response-order{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
