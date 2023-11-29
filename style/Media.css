@@ -53,6 +53,10 @@
     .wrapper-header {
         min-height: 70px;
     }
+    .wrap-head-ress{
+        display: block;
+      
+      }
 
     .containerimage-sign-in {
         display: block;
@@ -153,7 +157,9 @@
         top: -11px;
         min-height: 460px;
     }
-
+.foot-res-new{
+    margin-top: 292px;
+}
     .container-one-menu {
         display: flex;
         justify-content: space-between;
@@ -387,7 +393,6 @@
     }
 
     .section-middle-one {
-        margin: -63% 0;
         gap: 0px;
 
     }
@@ -403,8 +408,7 @@
         position: relative;
         align-items: flex-end;
         padding-inline: 35px;
-        margin: -31% 0;
-
+        margin-top: 10px;
     }
 
     .wrapper-sign span a {
@@ -507,7 +511,7 @@
     }
 
     .wrapper-info {
-        margin: -48% 0;
+        margin: -40% 0;
     }
 
     .info-content h3 {
@@ -533,7 +537,7 @@
         color: #000000;
         position: relative;
         bottom: 60px;
-
+        /* margin-top: 47px; */
 
     }
 
@@ -541,6 +545,9 @@
         bottom: 82px;
         right: 5px;
 
+    }
+    .wrap-back-imgg{
+        margin-top: 47px;
     }
 
     .log-wrapper {
@@ -916,5 +923,25 @@
     position: relative;
     left: 346px;
     top: 34px;
+}
+
+
+/* changing_pass start */
+.changing-password{
+    display: none;
+}
+.container-footer{
+    display: none;
+}
+.changing-password{
+    display: none;
+}
+.password-new{
+    display: none;
+}
+/* changing_pass start */
+
+.changePasswordView{
+    display: block;
 }
 }
