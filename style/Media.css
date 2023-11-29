@@ -574,12 +574,16 @@
         gap: 10px;
         width: 347px;
         min-height: 224px;
-        background-image: url(../img/response/Vector59.svg);
+        /* background-image: url(../img/response/Vector59.svg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         margin: -39% 6%;
         position: relative;
+    }
+
+    .order-card {
+        display: none;
     }
 
     .container-top-player h1 {
@@ -815,4 +819,102 @@
         padding-inline: 20px;
         margin: 20px 0;
     }
+
+    .response-div {
+        width: 353px;
+    }
+
+    .container-setting-text h3 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        position: absolute;
+        right: 4px;
+        bottom: 413px;
+
+
+    }
+
+    .pencle-res {
+        display: block;
+        position: relative;
+        bottom: 204px;
+        left: 187px;
+
+
+    }
+
+    .info_change {
+        display: none;
+    }
+
+    .container-col-setTop span,
+    .container-col-bottom span,
+    .container-bottom-setting span,
+    .container-col-password span {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #263238;
+
+
+    }
+
+    .container-col-input
+ {
+        width: 353px !important;
+        padding: 0 !important;
+        min-height: 50px;
+        position: absolute;
+        bottom: -51px;
+
+    }
+
+    .container-col-setTop {
+        position: relative;
+        right: 140px;
+        bottom: 180px;
+
+    }
+
+    .container-col-bottom {
+        position: relative;
+        right: 139px;
+        bottom: 154px;
+
+    }
+    .container-col-input12,
+    .container-col-input1{
+        width: 353px !important;
+        padding: 0 !important;
+        min-height: 50px;
+        position: absolute;
+        bottom: -51px;
+    }
+    .container-bottom-setting{
+        display: none;
+
+    }
+    .container-setting-text{
+        margin: 111%  0;
+    }
+    .cont-set{
+        position: relative;
+    bottom: 224px;
+    right: 210px;
+    }
+
+.container-settings-response{
+    display: block;
+    position: relative;
+    top: 61px;
+    margin: 56% 0px;
+
+}
+.container-col-password{
+    position: relative;
+    left: 346px;
+    top: 34px;
+}
 }

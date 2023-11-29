@@ -2290,7 +2290,7 @@ color: #848484;
 .container-to-user {
   width: 100%;
   min-height: 2838px;
-  background-image: url(../img/touse.svg);
+  background-image: url(../img/response/use.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2934,7 +2934,12 @@ margin-left: 5px;
 .container-response-order{
   display: none;
 }
-
+.order-card-response{
+  display: none;
+}
+.pencle-res,.container-settings-response{
+  display: none;
+}
 
 
 

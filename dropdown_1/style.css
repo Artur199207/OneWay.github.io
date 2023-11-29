@@ -312,28 +312,35 @@ section {
     align-items: center;
     gap: 10px;
 }
-
-.ss {
+.inp-class1 {
     display: none;
 }
 
-.aa {
-    border: 1.5px solid #263238;
+.lab-class1 {
     border-radius: 100%;
     margin-left: 22px;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
+    outline: 1px solid #000000;
+    cursor: pointer;
 }
 
-.ss:checked~.aa {
-    width: 24px;
-    height: 24px;
-    border: 1.5px solid #26AA9D;
+.inp-class1:checked~.lab-class1 {
+    width: 18px;
+    height: 18px;
+    border: 3.5px solid #ffffff;
     background: #26AA9D;
-
     margin-left: 22px;
+    outline: 1px solid #26AA9D;
+    box-sizing: border-box;
 
 }
+
+.inp-class1:checked~.lab-class1+span {
+    color: #26AA9D;
+    
+}
+
 
 .inn-sp-res {
     font-size: 14px;
@@ -432,26 +439,28 @@ section {
 }
 
 .lab-class {
-    border: 3.5pxpx solid #ffffff;
     border-radius: 100%;
     margin-left: 22px;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     outline: 1px solid #000000;
+    cursor: pointer;
 }
 
 .inp-class:checked~.lab-class {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     border: 3.5px solid #ffffff;
     background: #26AA9D;
     margin-left: 22px;
     outline: 1px solid #26AA9D;
     box-sizing: border-box;
+
 }
 
 .inp-class:checked~.lab-class+span {
     color: #26AA9D;
+    
 }
 
 /* payment-cash-res  view end */
