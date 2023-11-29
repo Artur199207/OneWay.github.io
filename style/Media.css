@@ -1,7 +1,8 @@
-@media (max-width: 1920px) {
+@media (max-width: 1900px) {
     .container-to-user {
         background-size: 100% !important;
     }
+    
 
 }
 
@@ -513,7 +514,9 @@
     .wrapper-info {
         margin: -40% 0;
     }
-
+.ForgotPasswordView{
+    display: block;
+}
     .info-content h3 {
 
         min-height: 28px;

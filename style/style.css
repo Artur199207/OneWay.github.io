@@ -2317,7 +2317,7 @@ color: #848484;
 /* To Use Start */
 .container-to-user {
   width: 100%;
-  min-height: 2838px;
+  /* min-height: 2838px; */
   background-image: url(../img/response/use.svg);
   background-position: center;
   background-size: cover;
@@ -3820,7 +3820,9 @@ section {
   color: #26AA9D;
   
 }
-
+.ForgotPasswordView{
+  display: none;
+}
 /* payment-cash-res  view end */
 
 
