@@ -48,11 +48,12 @@
         display: inline-block;
         position: absolute;
         left: 64%;
-        top: 29%;
+        top: 35%;
     }
 
     .wrapper-header {
         min-height: 70px;
+        gap: 0;
     }
     .wrap-head-ress{
         display: block;
@@ -155,7 +156,7 @@
         background: #F6F6F6;
         padding-inline: 20px;
         position: relative;
-        top: -11px;
+        /* top: -11px; */
         min-height: 460px;
     }
 .foot-res-new{
@@ -226,7 +227,7 @@
     .wrapper-back {
         margin: 73% 0;
         display: flex;
-        gap: 71px;
+        gap: 40px;
     }
 
     .back_main-menu1 {
@@ -569,7 +570,7 @@
 
     .container-player-response {
         display: block;
-        margin-top: 400px;
+        margin-top: 277px;
     }
 
     .wrapper-player-main {
@@ -714,7 +715,7 @@
     }
 
     .address-footer-res {
-        margin-top: 331px;
+        margin-top: 284px;
     }
 
     .address-res-inn {
@@ -778,12 +779,12 @@
 
     .container-response-order {
         display: block;
-        margin: -17% 0;
+        /* margin: -17% 0; */
     }
 
     .order-section-response {
         min-height: unset;
-        height: 250px;
+        height: 201px;
     }
 
     .ordered-dv {
@@ -848,8 +849,8 @@
     .pencle-res {
         display: block;
         position: relative;
-        bottom: 204px;
-        left: 187px;
+        bottom: 195px;
+        left: 184px;
 
 
     }
@@ -907,7 +908,7 @@
 
     }
     .container-setting-text{
-        margin: 111%  0;
+        margin: 119px  0;
     }
     .cont-set{
         position: relative;
@@ -946,5 +947,49 @@
 
 .changePasswordView{
     display: block;
+}
+.container-texplayer-bottom{    width: 300px;
+    min-height: 142px;
+    background-image: url(../img/response/Vector58.svg);
+    background-repeat: no-repeat;
+    background-size: 301px;
+    background-position: 0 2px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 12%;
+    bottom: 138px;
+    }
+    .cont-flex-new{
+        width: 155px;
+    }
+    .flex-img-new {
+        width: 141px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+.change-res{
+    margin-top: 264px;
+}
+.password-changing{
+    display: none;
+}
+
+
+.container-setting-row{
+    margin-bottom: 80px;
+}
+
+.container-to-user{
+    display: none;
+}
+.touse-res{
+    display: block;
+}
+.container-to-user{
+    display: none;
 }
 }
