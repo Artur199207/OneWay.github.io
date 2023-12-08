@@ -1,22 +1,32 @@
-const openBurger = document.getElementById("burger");
-const open = document.getElementById("open");
-let isOpen = false; // Initialize a variable to keep track of the open/close state.
-const accauntOpen = document.querySelector(".wrapper-open-accaunt");
-const vector = document.querySelector(".wrapper-pionter");
-let newOpen = false;
-openBurger.addEventListener("click", function () {
-  if (isOpen) {
-    open.style.display = "none"; // Close the div
-  } else {
-    open.style.display = "block"; // Open the div
-  }
-  isOpen = !isOpen; // Toggle the open/close state
-});
-vector.addEventListener('click',function(){
-  if(newOpen){
-    accauntOpen.style.display = 'none'
-  }else{
-    accauntOpen.style.display = 'block'
-  }
-  newOpen = !newOpen
+let changeLanguage=document.getElementById('lang-trans');
+let downClick=document.querySelector('.lang-bl');
+let upClick=document.querySelector('.lang-no');
+let hiddLang=document.querySelector('.fir-lang-hidden');
+let downClickMin=document.querySelector('.left-li-down');
+changeLanguage.addEventListener('click', function () {
+    hiddLang.style.display = hiddLang.style.display === 'none' ? 'block' : 'none';
+  
+    if (downClick.style.display === 'none') {
+        upClick.style.display = 'block';
+    } if(upClick.style.display === 'block'){
+        downClick.style.display = 'none'
+    }
+  });
+
+  let infoHead=document.getElementById('thr-hidd');
+ let openInfo=document.getElementById('open-info');
+openInfo.addEventListener('click', function(){
+    infoHead.style.display=infoHead.style.display==='none'? 'block': 'none';
+    if (downClick.style.display === 'none') {
+        upClick.style.display = 'block';
+    } if(upClick.style.display === 'block'){
+        downClick.style.display = 'none'
+    }
+    if (downClickMin.style.display === 'none') {
+        upClick.style.display = 'block';
+    } if(upClick.style.display === 'block'){
+        downClickMin.style.display = 'none'
+    }
 })
+
+
