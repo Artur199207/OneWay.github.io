@@ -4712,7 +4712,94 @@ margin-top: 20px;
 /* bar hidden div end */
 
 
+/* button animacia */
 
 
+.wrapper-btn {
+  /* padding: 1em 2em; */
+  padding-inline: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  /* letter-spacing: 3px; */
+  background: #DCFFFC;
+  text-transform: uppercase;
+  color: #26AA9D;
+  transition: all 1000ms;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #26AA9D;
+}
 
+.wrapper-btn:hover {
+  color: #DCFFFC;
+  transform: scale(1);
+  outline: 2px solid #26AA9D;
+  box-shadow: 4px 5px 17px 3px #26AA9D;
+}
 
+.wrapper-btn::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #088178;
+  transform: skewX(30deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.wrapper-btn:hover::before {
+  width: 150%;
+}
+
+/* button animacia end */
+.wr-btn {
+  --color: #fff;
+  font-family: inherit;
+  display: inline-block;
+  width: 263px;
+  height: 44px;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  color: #26AA9D;
+ }
+ 
+ .wr-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 400px;
+  border-radius: 30%;
+ }
+ 
+ .wr-btn:hover span {
+  color: #26AA9D;
+ }
+ .wr-btn:hover{
+  border: solid 1px #26AA9D;
+ }
+ .wr-btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .wr-btn:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .wr-btn:active:before {
+  background: #26AA9D;
+  transition: background 0s;
+ }

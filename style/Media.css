@@ -2,8 +2,6 @@
     .container-to-user {
         background-size: 100% !important;
     }
-
-
 }
 
 @media screen and (min-width:393px) and (max-width:768px) {
@@ -822,14 +820,6 @@
 
 
 
-
-
-
-
-
-
-
-
 @media screen and (max-width:1280px) {
     .project-header {
         padding-inline: 60px;
@@ -879,8 +869,6 @@
         display: none;
     }
 
-
-
     .thrd-inn-left {
         max-width: 155px;
     }
@@ -925,18 +913,6 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:786px) {
     .project-header {
         padding-inline: 30px;
@@ -965,34 +941,7 @@
         max-width: 100px;
     }
 
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:393px) {
     .logo-min {
@@ -1020,3 +969,11 @@
         display: block;
     }
 }
+
+
+
+
+
+
+
+
