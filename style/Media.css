@@ -857,7 +857,10 @@ width: 353px;
 
 
 
-@media screen and (min-width:768px) and (max-width:1280px) {
+@media screen and (min-width:769px) and (max-width:1280px) {
+    .cards{
+        display: flex;
+    }
 
     .aboute-row {
         padding-inline: 40px;
@@ -1065,8 +1068,6 @@ width: 353px;
         justify-content: flex-start;
     }
     .order-ch2{
-        max-width: 324px;
-        width: 100%;
         margin: 0 3.3%;
     }
     .order-card-inn p,.ord-pay-sp{
@@ -1094,8 +1095,25 @@ font-size: 14px;
     .order-country{
         display: none;
     }
-    
-
+    .password-new,.password-input{
+        width: 530px;
+    }
+    .new-password{
+        align-items: center;
+    }
+    .pass-inp1 span{
+        font-size: 16px;
+    }
+.password-new-inp{
+ width: 350px;
+    height: 50px;
+}
+.pass-butt{
+   width: 350px;
+    min-height: unset;
+    height: 44px;
+ line-height: 20px;
+}
 }
 
 
@@ -1121,6 +1139,20 @@ font-size: 14px;
     .order-left-sp>.order-num{
     color:  #353432 !important;
     font-size: 14px !important;
+   }
+
+   .new-password{
+    align-items: center;
+   }
+   .pass-inp1 span{
+    font-size: 16px;
+   }
+   .password-new-inp{
+    width: 400px;
+    height: 50px;
+   }
+   .pass-butt{
+    width: 400px;
    }
 
 }

@@ -4758,7 +4758,6 @@ margin-top: 20px;
 /* button animacia end */
 .wr-btn {
   --color: #fff;
-  font-family: inherit;
   display: inline-block;
   width: 263px;
   height: 44px;
@@ -4802,13 +4801,15 @@ margin-top: 20px;
   background: #26AA9D;
   transition: background 0s;
  }
-
+.pass-butt>span:hover{
+  text-decoration: none !important;
+}
 
  .ordered-dv:hover{
   transition: .4s;
   transform: scale(1.1, 1.1);
  }
-.content-open-wrapper:hover>.ordered-dv:not(:hover){
+.order-card-response:hover>.content-open-wrapper:not(:hover){
   filter: blur(3px);
   transform: scale(0.9, 0.9);
 }
@@ -4829,7 +4830,7 @@ margin-top: 20px;
     flex-direction: row;
     gap: 15px;
     flex-wrap: wrap;
-
+display: none;
 }
 
 .cards .red {
