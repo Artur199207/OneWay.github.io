@@ -4558,7 +4558,10 @@ margin-top: 10px;
 
 .inn-left-ul {
   display: flex;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
+  padding-left: 22px;
+
 
 }
 .inn-left-ul:hover{

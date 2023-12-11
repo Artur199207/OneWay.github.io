@@ -34,7 +34,8 @@
     .container-big-page,
     .wrapper-video2,
     .container-howtouse,
-    .container-pinduoduo,.hov-hover {
+    .container-pinduoduo,
+    .hov-hover {
         display: none !important;
     }
 
@@ -364,7 +365,8 @@
         position: absolute;
         right: 80%;
     }
-    .order-num{
+
+    .order-num {
         font-size: 16px;
     }
 
@@ -564,7 +566,7 @@
     }
 
     .ordered-dv {
-width: 353px;
+        width: 353px;
         height: 80px;
     }
 
@@ -858,7 +860,7 @@ width: 353px;
 
 
 @media screen and (min-width:769px) and (max-width:1280px) {
-    .cards{
+    .cards {
         display: flex;
     }
 
@@ -1036,84 +1038,107 @@ width: 353px;
     .wr-btn {
         width: 350px;
     }
-    .order-my{
+
+    .order-my {
         display: flex;
-        
+
     }
-    .order-ch1 span{
+
+    .order-ch1 span {
         font-size: 14px;
     }
-    .order-my-butt{
+
+    .order-my-butt {
         max-width: 186px;
         width: 100%;
         min-height: unset;
         height: 40px;
     }
-    .order-list{
+
+    .order-list {
         width: 726px;
     }
-    .ord-butt-ch, .sp-under{
-        font-size:14px ;
+
+    .ord-butt-ch,
+    .sp-under {
+        font-size: 14px;
     }
-    .my-order{
+
+    .my-order {
         width: 786px;
         justify-content: unset;
     }
-    .order-my{
+
+    .order-my {
         display: flex;
-    width: 717px;
-    justify-content: space-between;
+        width: 717px;
+        justify-content: space-between;
     }
-    .order-middle-ch1{
+
+    .order-middle-ch1 {
         justify-content: flex-start;
     }
-    .order-ch2{
+
+    .order-ch2 {
         margin: 0 3.3%;
     }
-    .order-card-inn p,.ord-pay-sp{
-font-size: 14px;
+
+    .order-card-inn p,
+    .ord-pay-sp {
+        font-size: 14px;
     }
-    .pay-card span{
+
+    .pay-card span {
         font-size: 12px;
     }
-    .onclick-checking{
+
+    .onclick-checking {
         max-width: 197px;
         width: 100%;
         min-height: unset;
         height: 33px;
     }
-    .order-card-butt{
-       width: 197px;
+
+    .order-card-butt {
+        width: 197px;
         min-height: unset;
         height: 40px;
         font-size: 14px;
     }
-    .order-country{
+
+    .order-country {
         width: 218px;
         justify-content: flex-end;
     }
-    .order-country{
+
+    .order-country {
         display: none;
     }
-    .password-new,.password-input{
+
+    .password-new,
+    .password-input {
         width: 530px;
     }
-    .new-password{
+
+    .new-password {
         align-items: center;
     }
-    .pass-inp1 span{
+
+    .pass-inp1 span {
         font-size: 16px;
     }
-.password-new-inp{
- width: 350px;
-    height: 50px;
-}
-.pass-butt{
-   width: 350px;
-    min-height: unset;
-    height: 44px;
- line-height: 20px;
-}
+
+    .password-new-inp {
+        width: 350px;
+        height: 50px;
+    }
+
+    .pass-butt {
+        width: 350px;
+        min-height: unset;
+        height: 44px;
+        line-height: 20px;
+    }
 }
 
 
@@ -1136,24 +1161,59 @@ font-size: 14px;
         width: unset;
         margin: 0;
     }
-    .order-left-sp>.order-num{
-    color:  #353432 !important;
-    font-size: 14px !important;
-   }
 
-   .new-password{
-    align-items: center;
-   }
-   .pass-inp1 span{
-    font-size: 16px;
-   }
-   .password-new-inp{
-    width: 400px;
-    height: 50px;
-   }
-   .pass-butt{
-    width: 400px;
-   }
+    .order-left-sp>.order-num {
+        color: #353432 !important;
+        font-size: 14px !important;
+    }
+
+    .new-password {
+        align-items: center;
+    }
+
+    .pass-inp1 span {
+        font-size: 16px;
+    }
+
+    .password-new-inp {
+        width: 400px;
+        height: 50px;
+    }
+
+    .pass-butt {
+        width: 400px;
+    }
+    .my-order{
+        width: 1160px;
+    }
+    .order-my{
+        display: flex;
+        width: calc(100%);
+        justify-content: space-between;
+    
+    }
+    .order-middle-ch1{
+        justify-content: space-between;
+    }
+    .order-my p{
+        width: 353px;
+    }
+    .order-my-butt {
+        display: block;
+    }
+.order-list{
+    width: 1160px;
+}
+.my-order-min{
+    max-width: 1160px;
+    width: 100%;
+}
+.order-country{
+    display: none;
+}
+.cards{
+    display: flex;
+}
 
 }
 
@@ -1169,6 +1229,30 @@ font-size: 14px;
     .pass-change {
         width: calc(74%);
     }
+    .order-my{
+        display: flex;
+    }
+    .my-order{
+        max-width: 1380px;
+        width: 100%;
+    }
+    .my-order-min{
+        width: calc(100%);
+    }
+    .order-list{
+        width: calc(1380px);
+    }
+    .order-country{
+        display: none;
+    }
+    .cards{
+        display: flex;
+    }
+    .order-my-butt {
+        width: 272px;
+        height: 44px;
+    }
+  
 }
 
 
