@@ -34,7 +34,7 @@
     .container-big-page,
     .wrapper-video2,
     .container-howtouse,
-    .container-pinduoduo {
+    .container-pinduoduo,.hov-hover {
         display: none !important;
     }
 
@@ -364,6 +364,9 @@
         position: absolute;
         right: 80%;
     }
+    .order-num{
+        font-size: 16px;
+    }
 
     .container-block {
         display: flex;
@@ -488,7 +491,7 @@
         font-size: 20px;
         font-weight: 400;
         line-height: 23px;
-        color: #ffffff !important;
+        color: #26AA9D;
     }
 
     .wr-cont {
@@ -561,8 +564,7 @@
     }
 
     .ordered-dv {
-        max-width: 353px;
-        width: 100%;
+width: 353px;
         height: 80px;
     }
 
@@ -589,6 +591,10 @@
         line-height: 23px;
         margin: 3% 10%;
 
+    }
+
+    .add-sp {
+        color: #26AA9D !important;
     }
 
     .new-password {
@@ -776,7 +782,7 @@
         width: unset;
         max-width: 353px !important;
         width: 100%;
-        background-color: unset;
+
     }
 
     .sign-left {
@@ -789,16 +795,368 @@
         color: #26AA9D !important;
     }
 
+    .log-wrapper {
+        font-size: 16px !important;
+    }
+
+    .play-res-inn {
+        margin-top: 40px;
+    }
+
+    .play-res-inn {
+        width: 393px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 163px;
+    }
+
+    .cont-play-res {
+        /* display: unset; */
+        justify-content: unset;
+    }
+
+    .container-player-resp {
+        height: 1048px;
+    }
+
+    .res-play-th {
+        margin-top: 0px;
+    }
+
+
+    .res-play-fr {
+        width: 393px;
+    }
+
+    .absolute-img {
+        width: 136px;
+        top: -89px;
+        left: 5px;
+
+    }
+
+    .absolut-img {
+        width: 78px;
+        top: 411px;
+        left: 71px;
+    }
+
+    .wrapper-flex-input {
+        gap: 17px;
+    }
+
 
 }
+
+
+
+
+
+
+
 
 
 @media screen and (min-width:768px) and (max-width:1280px) {
 
-    .aboute-row{
+    .aboute-row {
         padding-inline: 40px;
     }
+
+    .wrapper-aboute-text {
+        padding-inline: 30px;
+    }
+
+    .wrapper-aboute-text span {
+        font-size: 16px;
+    }
+
+    .aboye-more h3 {
+        margin: 21px -89px;
+    }
+
+    .logo-19 {
+        width: 300px;
+    }
+
+    .logo-12 {
+        margin: 0 -65px;
+    }
+
+    .head-inn-sign {
+        height: 0;
+    }
+
+    .thrd-inn-right {
+        max-width: unset;
+        width: unset;
+    }
+
+    .address-inner {
+        margin: 5%;
+        width: unset;
+        min-height: unset;
+    }
+
+    .address-inner h1 {
+        font-size: 24px;
+    }
+
+    .add-ru,
+    .add-china {
+        max-width: 172px;
+        width: 100%;
+        min-height: unset;
+        height: 38px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .add-font,
+    .add-fontt {
+        font-size: 14px;
+    }
+
+    .address-right {
+
+        width: 100%;
+        min-height: 427px;
+
+    }
+
+    .add-data-p,
+    .add-tada-sp {
+        font-size: 16px;
+    }
+
+    .data-img {
+        display: block;
+        margin: 0;
+    }
+
+    .add-rig-top {
+        width: 395px;
+    }
+
+    .address-data {
+        flex-wrap: wrap;
+        width: 500px;
+        gap: 6px;
+        border-bottom: 1px solid #D8D8D8;
+
+    }
+
+    .address-right-inn {
+        width: unset;
+        min-height: unset;
+        margin: 5%;
+        overflow: hidden;
+    }
+
+    .add-copy-all {
+        font-size: 20px;
+    }
+
+    .add-rig-bot {
+        margin-top: 24px;
+    }
+
+    .address-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address-left {
+        width: unset;
+    }
+
+    .changing-pass {
+        margin: 5% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pass-change {
+        width: unset;
+        margin: 5%;
+    }
+
+    .change-inp-but {
+        width: unset;
+        margin: unset;
+    }
+
+    .login-logo {
+        display: none;
+    }
+
+    .containerimage-sign-in {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .wrapper-name h3 {
+        font-size: 32px;
+        text-align: center;
+        width: unset;
+    }
+
+    .wrapper-input span {
+        font-size: 16px;
+    }
+
+    .container-form1 {
+        max-width: 350px;
+        width: 100%;
+        min-height: unset;
+        height: 50px;
+    }
+
+    .wr-btn {
+        width: 350px;
+    }
+
+    .container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .wrapper-flex-input {
+        gap: 14px;
+    }
+
+    .wr-btn {
+        width: 350px;
+    }
+    .order-my{
+        display: flex;
+        
+    }
+    .order-ch1 span{
+        font-size: 14px;
+    }
+    .order-my-butt{
+        max-width: 186px;
+        width: 100%;
+        min-height: unset;
+        height: 40px;
+    }
+    .order-list{
+        width: 726px;
+    }
+    .ord-butt-ch, .sp-under{
+        font-size:14px ;
+    }
+    .my-order{
+        width: 786px;
+        justify-content: unset;
+    }
+    .order-my{
+        display: flex;
+    width: 717px;
+    justify-content: space-between;
+    }
+    .order-middle-ch1{
+        justify-content: flex-start;
+    }
+    .order-ch2{
+        max-width: 324px;
+        width: 100%;
+        margin: 0 3.3%;
+    }
+    .order-card-inn p,.ord-pay-sp{
+font-size: 14px;
+    }
+    .pay-card span{
+        font-size: 12px;
+    }
+    .onclick-checking{
+        max-width: 197px;
+        width: 100%;
+        min-height: unset;
+        height: 33px;
+    }
+    .order-card-butt{
+       width: 197px;
+        min-height: unset;
+        height: 40px;
+        font-size: 14px;
+    }
+    .order-country{
+        width: 218px;
+        justify-content: flex-end;
+    }
+    .order-country{
+        display: none;
+    }
+    
+
 }
+
+
+
+@media screen and (min-width:1280px) and (max-width:1440px) {
+    .changing-pass {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 14px 140px;
+    }
+
+    .pass-change {
+        width: calc(54%);
+    }
+
+    .address-inner {
+        padding: 50px;
+        width: unset;
+        margin: 0;
+    }
+    .order-left-sp>.order-num{
+    color:  #353432 !important;
+    font-size: 14px !important;
+   }
+
+}
+
+@media screen and (min-width:1440px) and (max-width:1920px) {
+    .changing-pass {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 14px 140px;
+    }
+
+    .pass-change {
+        width: calc(74%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -816,6 +1174,9 @@
         gap: 0px;
     }
 
+    .footer-main {
+        padding-inline: 30px;
+    }
 }
 
 
@@ -911,6 +1272,14 @@
         display: none;
     }
 
+    .footer-main {
+        padding-inline: 54px;
+    }
+
+    .top-inn {
+        gap: 19px;
+    }
+
 }
 
 @media screen and (max-width:786px) {
@@ -969,11 +1338,3 @@
         display: block;
     }
 }
-
-
-
-
-
-
-
-
