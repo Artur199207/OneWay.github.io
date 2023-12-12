@@ -8,7 +8,31 @@ body {
   text-decoration: none !important;
   font-family: "Mardoto" !important;
 }
-
+a{
+  position: relative;
+  text-decoration: none !important;
+}
+a::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: -2px;
+  content: '';
+  display: block;
+  height: 1.5px;
+  left: 50%;
+  position: absolute;
+  background: #26AA9D;
+  transition: width 0.3s ease 0s;
+  left: 0.3s ease 0s;
+  width: 0;
+ 
+}
+a:hover::after{
+  width: 100%;
+  left: 0;
+}
+.inn-fir-logo a{
+  position: unset;
+}
 @font-face {
   font-family: "Mardoto";
   src: url(../fonts/ttf/Mardoto-Regular.ttf);
@@ -1088,7 +1112,7 @@ pointer-events: visible !important;
   border: 1px solid #26aa9d;
 }
 .wr-btn button {
-  width: 263px;
+  
   min-height: 44px;
   background: #f8931f;
   border: none;
@@ -4875,4 +4899,47 @@ display: none;
   flex-direction: column;
   margin: 5% 0;
 
+}
+
+
+
+
+
+
+
+
+
+.wave{
+  position: relative;
+  -webkit-box-reflect: below -20px
+  liner-gradient(transparent,rgba(255,251,251,0.363));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wave span{
+  color: #26AA9D;
+  position: relative;
+  display: inline-block;
+  font-size: 4rem;
+  text-transform: uppercase;
+  animation: wave 1s infinite;
+  animation-delay: calc(.1s*var(--i));
+}
+@keyframes wave {
+  0%,
+  40%,
+  100%{
+    transform: translateY(0);
+ 
+  }
+  20%{
+  
+    transform: translateY(-20px);
+    
+  }
+}
+.old-div{
+  display: none;
 }

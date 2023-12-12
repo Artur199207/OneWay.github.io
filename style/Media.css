@@ -284,6 +284,11 @@
     .row {
         padding-inline: unset;
     }
+    .container-setting-row{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 
     .wrapper-aboute-text span {
         font-size: 16px;
@@ -847,8 +852,10 @@
     .wrapper-flex-input {
         gap: 17px;
     }
-
-
+    .touse-sp{
+        color: #f8931f !important;
+    }
+   
 }
 
 
@@ -985,7 +992,7 @@
     }
 
     .pass-change {
-        width: unset;
+        width: 100%;
         margin: 5%;
     }
 
@@ -1139,8 +1146,212 @@
         height: 44px;
         line-height: 20px;
     }
+    .rest-input{
+        width: 530px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-inline: 80px;
+    }
+    .rest-dv p{
+        font-size: 20px;
+    }
+    .mail-inp span{
+        font-size: 16px;
+    }
+    .pass-inp-text{
+        max-width: 350px;
+        width: 100%;
+        height: 50px;
+    }
+    .pass-butt .wr-btn{
+        max-width: 350px;
+        width: 100%;
+        height: 44px;
+    }
+    .pass-restore{
+        width: 530px;
+    }
+    .container-setting-text h3{
+        font-size: 24px;
+    }
+    .info_change h4{
+        font-size: 14px;
+    }
+    .container-bottom-setting>span,
+    .container-bottom-setting>span,
+    .container-col-setTop>span,
+    .container-col-bottom>span{
+        font-size: 16px !important;
+    }
+    .container-col-input12,
+    .container-col-input1,
+    .container-col-input{
+        max-width: 350px;
+        width: 100%;
+        height: 50px;
+        min-height: unset;
+    }
+    .container-col-password .pass-change span,.container-col-password a p{
+        font-size: 14px;
+   
+
+    }
+    .container-setting-row{
+        display: flex;
+        padding-inline: 30px;
+        margin-bottom: 0;
+    }
+    .container-cont-settings{
+        margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .cont-set{
+        margin: 0.7% 0;
+    }
+    .container-web,.container-paragraf p{
+        display: none;
+    }
+.response-block{
+    display: block;
+    width: 227px;
+}
+.container-sign{
+    background-color: unset;
+}
+.container-paragraf h3{
+    font-size: 32px;
+}
+.container-sign-input span{
+    font-size: 16px;
+}
+.signUP-contaent{
+    max-width: 350px;
+    width: 100%;
+    height: 50px;
+    min-height: unset;
+}
+.wrapper-form-signUp{
+    width: 530px;
+    
+}
+.container-sign{
+    flex-direction: column;
+}
+.wrapper-sign-img{
+    margin-bottom: 30px;
+}
+.sign-btn-up{
+    max-width: 350px;
+    width: 100%;
+    min-height: unset;
+    height: 44px;
+}
+.sign-left{
+    font-size: 16px;
+}
+.btn-wrbac{
+    width: unset;
+}
+.wrapper-form-signUp{
+    min-height:759px ;
+}
+.container-big-page,.wrapper-video2,.container-howtouse,.container-pinduoduo{
+    display: none;
+}
+.touse-res{
+    display: block;
+}
+.touse-sp{
+    font-size: 32px;
+}
+.tous-sp{
+    font-size: 16px;
+}
+.touse-top{
+    width: unset;
+}
+.touse-main{
+    align-items: unset;
+}
+.touse-list-inn{
+    max-width: 340px;
+    width: 100%;
+}
+.touse-list{
+    max-width: 340px;
+    width: 100%;
+    position: relative;
+    left: 34px;
 }
 
+.touse-list .touse-list-inn:nth-child(1):before{
+    content: '';
+    width: 30px;
+    background-image: url(../img/response/response-line.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 2px;
+    right: 100%;
+    top: 56px;
+
+}
+
+.clamp-left{
+    position: absolute;
+    transform: rotate(274deg);
+    left: 95%;
+    top: 3%;
+
+}
+.calc-open1{
+    position: absolute;
+    left: 107%;
+}
+.tu-top-sp{
+    margin: 0 5%;
+}
+.clam-left1{
+    position: absolute;
+    top: 7%;
+    left: 140%;
+}
+.calc-open2{
+    position: absolute;
+    left: 107%;
+    top: 8.5%;
+}
+.clamp-left2{
+    position: absolute;
+    top: 10%;
+    transform: rotate(90deg);
+    left: 95%;
+}
+.calc-open3{
+    position: absolute;
+    top: 9%;
+    min-height: 140px;
+}
+.clamp-left3{
+    position: absolute;
+    top: 13.5%;
+    left: 100px;
+
+}
+.calc-open4{
+    position: absolute;
+    top: 287px;
+}
+
+
+
+
+
+}
 
 
 @media screen and (min-width:1280px) and (max-width:1440px) {
@@ -1152,9 +1363,7 @@
         margin: 14px 140px;
     }
 
-    .pass-change {
-        width: calc(54%);
-    }
+    
 
     .address-inner {
         padding: 50px;
@@ -1214,7 +1423,79 @@
 .cards{
     display: flex;
 }
-
+.rest-input{
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline: 50px;
+}
+.rest-dv p{
+    font-size: 24px;
+}
+.mail-inp span{
+    font-size: 16px;
+}
+.pass-inp-text{
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+}
+.pass-restore{
+    justify-content: center;
+}
+.pass-butt{
+    max-width: 350px;
+    width: 100%;
+    height: 44px;
+}
+.container-setting-text h3{
+    font-size: 24px;
+}
+.container-col-setTop>span,
+.container-bottom-setting>span,
+.container-col-bottom>span{
+    font-size: 16px;
+}
+.container-col-input,.container-col-input1,
+.container-col-input12{
+    max-width: 400px;
+    width: 100%;
+    height: 44px;
+    min-height: unset;
+}
+.info_change h4{
+    font-size: 14px;
+}
+.container-web{
+    width: 453px;
+}
+.container-paragraf p{
+    display: none;
+}
+.container-paragraf h3{
+    font-size: 32px;
+}
+.container-sign-input span{
+    font-size: 16px;
+}
+.signUP-contaent{
+    max-width: 400px;
+    width: 100%;
+    min-height: unset;
+    height: 50px;
+}
+.wrapper-form-signUp{
+    width: 520px;
+    min-height: 759px;
+}
+.sign-btn-up,.btn-wrbac{
+    max-width: 400px;
+    width: 100%;
+}
+.sign-left{
+    font-size: 16px;
+}
 }
 
 @media screen and (min-width:1440px) and (max-width:1920px) {
@@ -1226,9 +1507,10 @@
         margin: 14px 140px;
     }
 
-    .pass-change {
-        width: calc(74%);
-    }
+   .container-setting-row{
+    margin-bottom: unset;
+    padding-inline: 110px;
+   }
     .order-my{
         display: flex;
     }
@@ -1252,7 +1534,56 @@
         width: 272px;
         height: 44px;
     }
-  
+    .container-setting-text h3{
+        font-size: 30px;
+    }
+    .info_change h4{
+        font-size: 20px;
+    }
+   .container-col-setTop>span,
+   .container-col-bottom>span,
+   .container-bottom-setting>span,
+   .container-bottom-setting>span{
+    font-size: 24px;
+   }
+   .container-col-input,.container-col-input12,
+   .container-col-input1{
+    max-width: 600px;
+    width: 100%;
+    min-height: unset;
+    height: 70px;
+   }
+   .pass-change span, .container-col-password a p{
+    font-size: 20px;
+   }
+  .cont-set{
+    margin: 0.5% 0;
+  }
+  .sign-btn-up,.btn-wrbac{
+    max-width: 263px;
+    width: 100%;
+  }
+  .container-paragraf p{
+    display: none;
+  }
+  .container-web{
+    width: 450px;
+  }
+  .container-sign-input span{
+    font-size: 24px;
+  }
+  .signUP-contaent{
+    max-width: 600px;
+    width: 100%;
+    margin: 1% 0;
+  }
+  .sign-left{
+    font-size: 20px;
+  }
+  .wrapper-form-signUp{
+    width: 660px;
+    min-height: 1060px;
+  }
 }
 
 
@@ -1346,10 +1677,7 @@
         display: none;
     }
 
-    .thrd-inn-left {
-        max-width: 155px;
-    }
-
+  
     .name-sur {
         font-size: 14px;
         font-weight: 400;

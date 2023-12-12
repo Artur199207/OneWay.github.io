@@ -15,18 +15,24 @@ changeLanguage.addEventListener('click', function () {
 
   let infoHead=document.getElementById('thr-hidd');
  let openInfo=document.getElementById('open-info');
-openInfo.addEventListener('click', function(){
-    infoHead.style.display=infoHead.style.display==='none'? 'block': 'none';
-    if (downClick.style.display === 'none') {
-        upClick.style.display = 'block';
-    } if(upClick.style.display === 'block'){
-        downClick.style.display = 'none'
-    }
-    if (downClickMin.style.display === 'none') {
-        upClick.style.display = 'block';
-    } if(upClick.style.display === 'block'){
-        downClickMin.style.display = 'none'
-    }
-})
+// openInfo.addEventListener('click', function(){
+//     infoHead.style.display=infoHead.style.display==='none'? 'block': 'none';
+//     if (downClick.style.display === 'none') {
+//         upClick.style.display = 'block';
+//     } if(upClick.style.display === 'block'){
+//         downClick.style.display = 'none'
+//     }
+//     if (downClickMin.style.display === 'none') {
+//         upClick.style.display = 'block';
+//     } if(upClick.style.display === 'block'){
+//         downClickMin.style.display = 'none'
+//     }
+// })
+
+
+setTimeout(() => {
+    document.querySelector('.old-div').style.display = 'block';
+    document.querySelector('.wave').style.display = 'none'
+}, 1000);
 
 
