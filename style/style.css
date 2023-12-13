@@ -1119,6 +1119,9 @@ pointer-events: visible !important;
 
   border-radius: 4px;
 }
+.calc-block{
+  display: none;
+}
 .sign-btn {
   display: flex;
   flex-direction: column;

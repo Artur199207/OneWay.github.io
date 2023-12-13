@@ -1272,6 +1272,7 @@
 }
 .touse-top{
     width: unset;
+    min-height: 1221px;
 }
 .touse-main{
     align-items: unset;
@@ -1303,9 +1304,10 @@
 
 .clamp-left{
     position: absolute;
-    transform: rotate(274deg);
+    transform: rotate(90deg);
     left: 95%;
-    top: 3%;
+    top: 161%;
+
 
 }
 .calc-open1{
@@ -1317,41 +1319,214 @@
 }
 .clam-left1{
     position: absolute;
-    top: 7%;
-    left: 140%;
+    top: 99%;
+    left: 105%;
 }
 .calc-open2{
     position: absolute;
     left: 107%;
-    top: 8.5%;
+    top: 120.5%;
 }
 .clamp-left2{
     position: absolute;
-    top: 10%;
-    transform: rotate(90deg);
+    top: 64%;
+    transform: rotate(271deg);
     left: 95%;
+
 }
 .calc-open3{
     position: absolute;
-    top: 9%;
+    top: 124%;
     min-height: 140px;
 }
 .clamp-left3{
     position: absolute;
-    top: 13.5%;
-    left: 100px;
+    top: 502.5%;
+    left: 0;
+
 
 }
 .calc-open4{
     position: absolute;
-    top: 287px;
+    top: 294px;
+}
+
+.list-href{
+    position: absolute;
+    top: 1026%;
+    left: 159%;
+    width: 117px;
+}
+
+.clamp-left4{
+    position: absolute;
+    left: 0%;
+    top: 254%;
+
+
+}
+.clamp-left5{
+    position: absolute;
+    transform: rotate(272deg);
+    top: 338%;
+    left: 94%;
+
+}
+.calc-open5{
+    position: absolute;
+    top: 277%;
+    left: 106%;
+}
+.clamp-left6{
+    position: absolute;
+    left: 106%;
+    top: 377%;
+}
+.calc-open6{
+    position: absolute;
+    left: 107%;
+    top: 401%;
+
+}
+.clamp-left7{
+    position: absolute;
+    top: 422%;
+    left: 96%;
+    transform: rotate(90deg);
+}
+.calc-open7{
+    position: absolute;
+    top: 404%;
+}
+.calc-open8{
+    position: absolute;
+    top: 524%;
+}
+.clamp-left8{
+    position: absolute;
+    top: 578%;
+    transform: rotate(270deg);
+    left: 95%;
+}
+.calc-open9{
+    position: absolute;
+    top: 524%;
+    left: 107%;
+}
+.clamp-left9{
+    position: absolute;
+    top: 621%;
+    left: 106%;
+}
+.calc-open10{
+    position: absolute;
+    top: 643%;
+    left: 107%;
+}
+.clamp-left10{
+    position: absolute;
+    top: 661%;
+    transform: rotate(90deg);
+    left: 96%;
+}
+.calc-open11{
+    position: absolute;
+    top: 643%;
+}
+.clamp-left11{
+    position: absolute;
+    top: 742%;
+    left: 0;
+}
+.calc-open12{
+    position: absolute;
+    top: 767%;
+}
+.clamp-left12{
+    position: absolute;
+    top: 828%;
+    transform: rotate(272deg);
+    left: 95%;
+}
+.calc-open13{
+    position: absolute;
+    top: 766%;
+    left: 107%;
+}
+.clamp-left13{
+    position: absolute;
+    top: 873%;
+    left: 106%;
+}
+.calc-open14{
+    position: absolute;
+    top: 896%;
+    left: 107%;
+}
+.touse-bot{
+    position: relative;
+    min-height: 700px;
+    margin: 4% 0;
+}
+.list-resp{
+    width: unset;
+}
+.list-liner{
+    margin: 0 35%;
+    display: block;
+}
+.calc-open15::before{
+    display: none;
+}
+.calc-none{
+    display: none;
+}
+.calc-block{
+    display: block;
+}
+.calc-clam101{
+    position: absolute;
+    top: 74%;
+    left: 115%;
+}
+.clamp1{
+    position: absolute;
+    left: 128%;
+    top: 68%;
+    transform: rotate(178deg);
+}
+.calc01{
+    position: absolute;
+    left: 115%;
+    top: 44%;
+}
+.calc1002{
+    position: absolute;
+    left: 128%;
+    top: 39%;
+    transform: rotate(180deg);
+}
+.clamp3002{
+    position: absolute;
+    left: 115%;
+    top: 15%;
+}
+.bottom-list{
+   display: block;
+    position: absolute;
+    top: 122%;
+}
 }
 
 
 
 
 
-}
+
+
+
+
+
 
 
 @media screen and (min-width:1280px) and (max-width:1440px) {
