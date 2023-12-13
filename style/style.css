@@ -12,6 +12,9 @@ a{
   position: relative;
   text-decoration: none !important;
 }
+a:hover{
+  color: #26AA9D !important;
+}
 a::after{
   background: none repeat scroll 0 0 transparent;
   bottom: -2px;
@@ -24,7 +27,7 @@ a::after{
   transition: width 0.3s ease 0s;
   left: 0.3s ease 0s;
   width: 0;
- 
+ color: #26AA9D;
 }
 a:hover::after{
   width: 100%;

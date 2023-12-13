@@ -36,3 +36,6 @@ setTimeout(() => {
 }, 1000);
 
 
+function redirectToUse() {
+    window.location.href = 'toUse.html';
+  }
