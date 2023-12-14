@@ -466,8 +466,9 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
+        width: 77px;
     }
-
+   
     .container-form1 {
         max-width: 353px;
         width: 100%;
@@ -475,10 +476,12 @@
         height: 44px;
         color: #26AA9D;
         border: 1px solid #26AA9D;
+        padding: 0;
     }
 
     .cont-flex span {
-        font-size: 14px;
+        font-size: 12px;
+        width: unset;
     }
 
     .wrapper-input {
@@ -850,10 +853,10 @@
         left: 71px;
     }
 
-    .wrapper-flex-input {
-        gap: 17px;
-    }
-
+    
+.wrapper-flex-input a span{
+    font-size: 12px;
+}
     .touse-sp {
         color: #f8931f !important;
     }

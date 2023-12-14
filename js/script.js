@@ -39,3 +39,19 @@ setTimeout(() => {
 function redirectToUse() {
     window.location.href = 'toUse.html';
   }
+
+
+
+  document.querySelector('.order-my-butt').addEventListener('click', function() {
+    document.getElementById('overlay').style.display = 'block';
+    document.getElementById('popup').style.display = 'block';
+});
+
+document.getElementById('closeBtn').addEventListener('click', function() {
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('popup').style.display = 'none';
+});
+document.getElementById('closebutton').addEventListener('click', function() {
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('popup').style.display = 'none';
+});
