@@ -125,7 +125,7 @@ color: #263238;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #FFFFFF;
   border: 1px solid #26AA9D;
 }
@@ -136,13 +136,19 @@ color: #263238;
   width: 272px;
   height: 44px;
   background:#FFFFFF;
+
+border: 1px solid #26AA9D;
+}
+.poput-butn span{
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #26AA9D;
-border: 1px solid #26AA9D;
+}
+.poput-butn span{
+  font-size: 20px;
 }
 .poputp-button{
   display: flex;
@@ -154,8 +160,9 @@ border: 1px solid #26AA9D;
     left: 100%;
     top: 0px;
 }
-.type-bottom>input:focus,.type-top>input:focus{
-  border: 1px solid #26AA9D !important;
+.type-bottom>input:focus-visible,.type-top>input:focus-visible{
+  border: 1px solid #26AA9D;
+
 }
 
 
@@ -4995,7 +5002,51 @@ margin-top: 20px;
 }
 
 
+.poput-butn{
+  
+  display: inline-block;
+  width: 263px;
+  height: 44px;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
 
+  transition: color .5s;
+  z-index: 1;
+  color: #26AA9D;
+ }
+ 
+ .poput-butn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #26AA9D;
+  height: 150px;
+  width: 400px;
+  border-radius: 30%;
+ }
+ 
+ .poput-butn:hover span {
+  color: #FFFFFF !important;
+ }
+ .poput-butn:hover{
+  border: solid 1px #FAFAFA;
+ }
+ .poput-butn:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .poput-butn:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .poput-butn:active:before {
+  background:#FFFFFF;
+  transition: background 0s;
+ }
 
 
 
