@@ -1098,12 +1098,12 @@ pointer-events: visible !important;
   min-height: 70px;
   border-radius: 4px;
   border: 1px solid #26aa9d;
-  padding: 25px;
+  padding: 10px;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
-
+color: #26AA9D;
 
 }
 .check {
@@ -1134,7 +1134,6 @@ pointer-events: visible !important;
 .wrapper-flex-input {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 .wrapper-flex-input span {
@@ -1569,6 +1568,7 @@ pointer-events: visible !important;
   text-align: left;
   color: #263238;
   margin-top: 50px;
+  text-transform: uppercase;
 }
 .aboute-row {
   align-items: center;
@@ -1576,7 +1576,7 @@ pointer-events: visible !important;
   justify-content: space-between;
 }
 
-Section Aboute Me end
+/* Section Aboute Me end */
 
 /* Footer   container-footer */
 
@@ -5107,12 +5107,6 @@ display: none;
 
 
 
-
-
-
-
-
-
 .wave{
   position: relative;
   -webkit-box-reflect: below -20px
@@ -5121,29 +5115,59 @@ display: none;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-.wave span{
-  color: #26AA9D;
-  position: relative;
-  display: inline-block;
-  font-size: 4rem;
-  text-transform: uppercase;
-  animation: wave 1s infinite;
-  animation-delay: calc(.1s*var(--i));
-}
-@keyframes wave {
-  0%,
-  40%,
-  100%{
-    transform: translateY(0);
- 
-  }
-  20%{
+  background-image: url(../video/Gif\ GifONE.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30% 50%;
   
-    transform: translateY(-20px);
-    
-  }
 }
-.old-div{
-  display: none;
-}
+
+
+.main { 
+  display: block; 
+  position: relative; 
+  padding-left: 36px; 
+  cursor: pointer; 
+  font-size: 16px; 
+} 
+
+input[type=checkbox] { 
+  visibility: hidden; 
+} 
+
+.geekmark { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+width: 22px !important;
+height: 22px !important; 
+ border: solid 1px;
+} 
+
+
+.main input:checked ~ .geekmark { 
+  background-color: #26AA9D; 
+  border: none;
+} 
+
+.geekmark:after { 
+  content: ""; 
+  position: absolute; 
+  display: none; 
+} 
+
+.main input:checked ~ .geekmark:after { 
+  display: block; 
+} 
+
+.main .geekmark:after { 
+  left: 8px; 
+  bottom: 5px; 
+  width: 6px; 
+  height: 12px; 
+  border: solid white; 
+  border-width: 0 4px 4px 0; 
+  -webkit-transform: rotate(45deg); 
+  -ms-transform: rotate(45deg); 
+  transform: rotate(45deg); 
+} 

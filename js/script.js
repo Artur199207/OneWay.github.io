@@ -33,7 +33,7 @@ changeLanguage.addEventListener('click', function () {
 setTimeout(() => {
     document.querySelector('.old-div').style.display = 'block';
     document.querySelector('.wave').style.display = 'none'
-}, 1000);
+}, 2000);
 
 
 function redirectToUse() {

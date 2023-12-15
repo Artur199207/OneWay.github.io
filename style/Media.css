@@ -79,14 +79,19 @@
     .touse-res {
         display: block;
     }
-
+    .containerimage-sign-in{
+        width: 200px;
+    }
     .pencle-res {
         display: block;
         position: absolute;
         bottom: 255px;
         left: 79%;
     }
-
+.add-res-but1  img{
+    width: 24px;
+    height: 24px;
+}
     .container-response-order {
         display: flex;
         flex-direction: column;
@@ -291,7 +296,7 @@
         font-size: 24px;
         font-weight: 400;
         line-height: 28px;
-        margin: 3% 6%;
+        margin: 13% 6%;
     }
 
     .row-res {
@@ -886,7 +891,13 @@
         color: #f8931f !important;
     }
 
-
+    .main{
+        font-size: 12px;
+    }
+    .geekmark{
+        width: 20px !important;
+        height: 20px !important;
+    }
 }
 
 
@@ -901,6 +912,13 @@
     .content-popup{
         width: 484px;
         height: 421px;
+    }
+    .wrapper-log-in{
+        padding: 26px 100px;
+    }
+    .add-flag img{
+        width: 24px;
+        height: 24px;
     }
     .flex-popup span{
         font-size: 20px;
@@ -930,11 +948,12 @@
     }
 
     .aboye-more h3 {
-        margin: 21px -89px;
+        margin: 46px -89px;
     }
 
     .logo-19 {
-        width: 300px;
+        width: 400px;
+        margin-right: 80px;
     }
 
     .logo-12 {
@@ -979,7 +998,8 @@
 
     .address-right {
 
-        width: 100%;
+        
+        width: 534px;
         min-height: 427px;
 
     }
@@ -1052,6 +1072,7 @@
     }
 
     .containerimage-sign-in {
+        width: 200px;
         display: block;
         margin-bottom: 30px;
     }
@@ -1072,21 +1093,38 @@
         min-height: unset;
         height: 50px;
     }
-
+    .cont-flex input{
+        font-size: 20px;
+    }
+    .cont-flex{
+        gap: 0;
+    }
+.content-name-text{
+    font-size: 12px;
+}
     .wr-btn {
         width: 350px;
+    }
+    .cont-flex span{
+        font-size: 12px;
+    }
+    .wrapper-butt{
+        width: unset;
+    }
+    .wr-cont{
+        font-size: 16px;
     }
 
     .container-form {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        width: 530px;
+        height: 551px;
+min-height: unset;
     }
 
-    .wrapper-flex-input {
-        gap: 14px;
-    }
+  
 
     .wr-btn {
         width: 350px;
@@ -1763,12 +1801,42 @@
     .cont-phone {
         min-height: unset;
     }
-    
+    .main{
+        font-size: 12px;
+    }
+    .geekmark{
+        width: 20px !important;
+        height: 20px !important;
+    }
 
 }
-
+@media screen and (min-width:929px) and (max-width:1280px){
+    .containerimage-sign-in{
+        width: 400px;
+    }
+    .container-form{
+        width: 400px;
+    }
+    .wrapper-log-in{
+        padding: 42px 0;
+    }
+    .main{
+        font-size: 12px;
+    }
+    .geekmark{
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
 @media screen and (min-width:1112px) and (max-width:1280px) {
-
+  
+    .main{
+        font-size: 12px;
+    }
+    .geekmark{
+        width: 20px !important;
+        height: 20px !important;
+    }
     .nk-res7 {
         display: block;
         left: 20px;
@@ -1782,9 +1850,11 @@
     }
 
     
+    .pass-change{
+        justify-content: center;
+    }
 
-
-
+   
 }
 
 
@@ -1799,6 +1869,70 @@
 
 
 @media screen and (min-width:1280px) and (max-width:1440px) {
+    .main{
+        font-size: 12px;
+    }
+    .geekmark{
+        width: 20px !important;
+        height: 20px !important;
+    }
+   
+    .container-form{
+        width: 520px;
+        display: flex;
+        justify-content: center;
+        min-height: unset;
+        height: 534px;
+    }
+    .wrapper-name{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-log-in{
+        padding: 42px 0;
+    }
+    .wrapper-input span{
+        font-size: 16px;
+    }
+    .cont-flex {
+        gap: 0;
+    }
+    .cont-flex input{
+        width: 20px;
+    }
+    .cont-flex span{
+        font-size: 12px;
+    }
+    .wrapper-flex-input{
+        width: unset;
+    }
+    .wrapper-butt button{
+        width: 400px;
+    }
+    .wr-cont{
+        font-size: 16px;
+    }
+    .wrapper-flex-input a span{
+        font-size: 12px;
+    }
+    .container-form1{
+        width: 400px;
+        height: 50px;
+        min-height: unset;
+    }
+
+    .login-logo{
+        width: 400px;
+    }
+    
+    .wrapper-name h3{
+        font-size: 32px;
+        text-align: center;
+    }
+    .container-fetch{
+        width: 400px;
+    }
     .changing-pass {
         display: flex;
         flex-direction: column;
@@ -2410,9 +2544,14 @@
         left: 54%;
         transform: rotate(335deg);
     }
+    .pass-change{
+        justify-content: center;
+    }
+    
 }
 
 @media screen and (min-width:1440px) and (max-width:1920px) {
+  
     .changing-pass {
         display: flex;
         flex-direction: column;
@@ -2523,8 +2662,9 @@
     }
 
 
-
-
+    .pass-change{
+        justify-content: center;
+    }
 
 
 
@@ -2538,10 +2678,79 @@
 }
 
 @media screen and (min-width:1440px) and (max-width:1560px) {
+.main{
+    font-size: 12px;
+}
+.geekmark{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+    .container-form{
+        width: 520px;
+        display: flex;
+        justify-content: center;
+        min-height: unset;
+        height: 534px;
+    }
+    .wrapper-name{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-log-in{
+        padding: 42px 0;
+    }
+    .wrapper-input span{
+        font-size: 16px;
+    }
+    .cont-flex {
+        gap: 0;
+    }
+    .cont-flex input{
+        width: 20px;
+    }
+    .cont-flex span{
+        font-size: 12px;
+    }
+    .wrapper-flex-input{
+        width: unset;
+    }
+    .wrapper-butt button{
+        width: 400px;
+    }
+    .wr-cont{
+        font-size: 16px;
+    }
+    .wrapper-flex-input a span{
+        font-size: 12px;
+    }
+    .container-form1{
+        width: 400px;
+        height: 50px;
+        min-height: unset;
+    }
+
+    .login-logo{
+        width: 400px;
+    }
+    
+    .wrapper-name h3{
+        font-size: 32px;
+        text-align: center;
+    }
+    .container-fetch{
+        width: 400px;
+    }
 
 
 
-
+    .change-inputs{
+        width: 600px;
+    }
+.pass-change{
+    justify-content: center;
+}
 
     .use-resp {
         display: none;
@@ -2986,6 +3195,63 @@
 }
 
 @media screen and (min-width:1561px) and (max-width:1920px) {
+    .content-name-text,.content-lower{
+        font-size: 16px !important;
+    }
+    .container-form{
+        width: 660px;
+        display: flex;
+        justify-content: center;
+        min-height: unset;
+        height: 600px;
+        min-height: unset;
+    }
+    .wrapper-name{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .wrapper-log-in{
+        padding: 42px 0;
+    }
+    .wrapper-input span{
+        font-size: 24px;
+    }
+    .cont-flex {
+        gap: 0;
+    }
+    .cont-flex input{
+        width: 20px;
+    }
+    .cont-flex span{
+        font-size: 12px;
+    }
+    .wrapper-flex-input{
+        width: unset;
+    }
+    .wrapper-butt button{
+        width: 263px;
+    }
+    .wr-cont{
+        font-size: 20px;
+    }
+    .wrapper-flex-input a span{
+        font-size: 12px;
+    }
+    .container-form1{
+        width: 600px;
+        height: 70px;
+        min-height: unset;
+    }
+
+    .login-logo{
+        width: 400px;
+    }
+  
+    .wrapper-name h3{
+        font-size: 50px;
+        text-align: left;
+    }
     .section-middle-one h3 {
         font-size: 32px;
     }
@@ -3096,6 +3362,7 @@
         right: 100px;
         min-height: 700px;
     }
+   
 
 }
 
