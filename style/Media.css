@@ -9,6 +9,16 @@
         width: 353px;
         padding: 0;
     }
+    #closebutton{
+        width: 353px;
+height: 44px !important;
+    }
+    #closebutton span{
+        font-size: 16px !important;
+    }
+    .sp-green{
+        color: #26AA9D !important;
+    }
     .flex-popup span{
         font-size: 20px;
         
@@ -84,9 +94,7 @@
     }
     .pencle-res {
         display: block;
-        position: absolute;
-        bottom: 255px;
-        left: 79%;
+
     }
 .add-res-but1  img{
     width: 24px;
@@ -702,6 +710,7 @@
         max-width: 353px;
         width: 100%;
         height: 50px;
+        font-size: 14px;
     }
 
     .pass-butt {
@@ -809,6 +818,7 @@
 
     .container-sign {
         padding: 0;
+        background-color: unset;
     }
 
     .sign-btn-up {
@@ -819,9 +829,7 @@
     }
 
     .wr-btn {
-        width: unset;
-        max-width: 353px !important;
-        width: 100%;
+      width: 353px;
 
     }
 
@@ -898,6 +906,12 @@
         width: 20px !important;
         height: 20px !important;
     }
+    .res-oil{
+        display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 353px;
+    }
 }
 
 
@@ -909,6 +923,16 @@
 
 
 @media screen and (min-width:769px) and (max-width:1280px) {
+    .container-sign{
+        padding: 0;
+        margin-bottom: 35px;
+        background-color: unset;
+    }
+    
+   
+    .poput-butn{
+        width: 350px !important;
+    }
     .content-popup{
         width: 484px;
         height: 421px;
@@ -1100,7 +1124,7 @@
         gap: 0;
     }
 .content-name-text{
-    font-size: 12px;
+    font-size: 12px !important;
 }
     .wr-btn {
         width: 350px;
@@ -1120,7 +1144,7 @@
         flex-direction: column;
         align-items: center;
         width: 530px;
-        height: 551px;
+        height: 476px;
 min-height: unset;
     }
 
@@ -1251,6 +1275,7 @@ min-height: unset;
         max-width: 350px;
         width: 100%;
         height: 50px;
+        font-size: 14px;
     }
 
     .pass-butt .wr-btn {
@@ -1318,12 +1343,10 @@ min-height: unset;
 
     .response-block {
         display: block;
-        width: 227px;
+        width: 450px;
     }
 
-    .container-sign {
-        background-color: unset;
-    }
+  
 
     .container-paragraf h3 {
         font-size: 32px;
@@ -2032,7 +2055,7 @@ min-height: unset;
         width: 100%;
         height: 50px;
     }
-
+    
     .pass-restore {
         justify-content: center;
     }
@@ -2547,7 +2570,13 @@ min-height: unset;
     .pass-change{
         justify-content: center;
     }
-    
+    .mail-inp span{
+        font-size: 16px;
+            }
+            .pass-inp-text{
+                font-size: 14px;
+            }
+            
 }
 
 @media screen and (min-width:1440px) and (max-width:1920px) {
@@ -2625,7 +2654,7 @@ min-height: unset;
     }
 
     .cont-set {
-        margin: 0.5% 0;
+        margin: 0.3% 0;
     }
 
     .sign-btn-up,
@@ -2662,10 +2691,7 @@ min-height: unset;
     }
 
 
-    .pass-change{
-        justify-content: center;
-    }
-
+  
 
 
 
@@ -3191,10 +3217,11 @@ min-height: unset;
         transform: rotate(335deg);
     }
 
-
+   
 }
 
 @media screen and (min-width:1561px) and (max-width:1920px) {
+  
     .content-name-text,.content-lower{
         font-size: 16px !important;
     }
