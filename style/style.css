@@ -190,12 +190,24 @@ a:hover::after{
 .inn-fir-logo a{
   position: unset;
 }
-.info_change:hover h4,.pass-change:hover span{
+.info_change:hover h4{
   color: #26AA9D !important;
 }
-.container-col-input1:focus {
+.container-col-input1:focus,
+.inp-pass-change:focus {
   border: solid 1px #F8931F !important;
 }
+
+.inp-pass-change:focus-visible,.container-form1:focus-visible,
+.pass-inp-text:focus-visible,.type-top input:focus-visible,
+.type-bottom input:focus-visible,.password-new-inp:focus-visible,
+.container-col-input:focus-visible,.container-col-input1:focus-visible,
+.container-col-input12:focus-visible,.signUP-contaent:fo {
+  outline: none;
+  border: solid 1px #F8931F !important;
+}
+
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -2549,7 +2561,7 @@ flex-grow: 4;
 .content-step7,.content-step9{
   display: flex;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 293px;
   width: 100%;
   min-height: 106px;
   border-radius: 20px;
@@ -2557,6 +2569,9 @@ flex-grow: 4;
   gap: 8px;
   align-items: flex-start;
   justify-content: center;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
 padding: 20px 0;
 }
 .content-step1::before{
@@ -2709,6 +2724,7 @@ z-index: 5;
     position: relative;
     bottom: 157px;
     right: 7%;
+    z-index: 1;
 }
 .wrapper-step-line17{
   max-width: 281px;

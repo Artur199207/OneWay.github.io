@@ -304,7 +304,7 @@ height: 44px !important;
         font-size: 24px;
         font-weight: 400;
         line-height: 28px;
-        margin: 13% 6%;
+        margin: 43px 6%;
     }
 
     .row-res {
@@ -648,6 +648,7 @@ height: 44px !important;
     .new-password {
         justify-content: center;
         padding-inline: 25px;
+        align-items: center;
     }
 
     .pass-inp1 span {
@@ -746,7 +747,7 @@ height: 44px !important;
     }
 
     .container-cont-settings {
-        margin: 20px;
+        margin: 20px 0;
     }
 
     .container-col-setTop {
@@ -782,7 +783,19 @@ height: 44px !important;
         margin: 0;
         gap: 13px;
         position: relative;
-        left: 48%;
+        display: flex;
+        justify-content: flex-end;
+        width: 353px;
+        max-width: 100%;
+    }
+
+    .container-setting-text,
+    .cont-set {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
     }
 
     .container-paragraf h3 {
@@ -3221,7 +3234,14 @@ min-height: unset;
 }
 
 @media screen and (min-width:1561px) and (max-width:1920px) {
-  
+  .container-big-page{
+    height: 1111px;
+  }
+
+  .wrapper-back-step15 {
+    left: 56%;
+  }
+
     .content-name-text,.content-lower{
         font-size: 16px !important;
     }
@@ -3471,7 +3491,7 @@ min-height: unset;
         line-height: 16px;
         letter-spacing: 0em;
         text-align: left;
-
+white-space: nowrap;
     }
 
     .head-inn-thrd {
@@ -3491,6 +3511,7 @@ min-height: unset;
         letter-spacing: 0em;
         text-align: left;
         color: #353432;
+        white-space: nowrap;
     }
 
     .phone-res-12 {
