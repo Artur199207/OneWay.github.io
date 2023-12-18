@@ -86,16 +86,13 @@ height: 44px !important;
     .order-my,
     .add-orderr,
     .response-block,
-    .touse-res {
+    .touse-res,.pencle-res {
         display: block;
     }
     .containerimage-sign-in{
         width: 200px;
     }
-    .pencle-res {
-        display: block;
 
-    }
 .add-res-but1  img{
     width: 24px;
     height: 24px;
@@ -761,7 +758,7 @@ height: 44px !important;
     }
 
     .container-bottom-setting {
-        margin: 5% 0;
+        margin: 3% 0;
     }
 
     .container-col-input12 {

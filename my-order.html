@@ -58,8 +58,55 @@
                   <a href="#" class="inn-li-a">Ծառայություններ</a>
                 </li>
                 <li class="inn-ul-li">
-                  <a href="#" class="inn-li-a">Հաշվիչ</a>
-                </li>
+                  <button id="content-calculation">Հաշվիչ</button>
+              </li>
+              <div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <div class="popup-content">
+
+        <div class=" calculation-poper">
+          <div class="flex-popup">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <span>Առաքման հաշվիչ</span>
+          </div>
+          <div class="content-flag-popup">
+            <div class="flag-popup">
+              <img src="./img/china.svg" alt="image">
+            </div>
+            <div class="flag-popup">
+              <img src="./img/usa.svg" alt="i9mage">
+            </div>
+            <div class="flag-popup">
+              <img src="./img/rus.svg" alt="image">
+            </div>
+            <div class="flag-popup">
+              <img src="./img/arab.svg" alt="image">
+            </div>
+          </div>
+          <div class="content-line"></div>
+          <div class="popup-type">
+            <form action="" class="content-downloard">
+              <div class="content-downloard">
+                <input type="number" placeholder="   Փաստացի քաշ ">
+              </div>
+              <div class="content-downloard">
+                <input type="number" placeholder="   Կգ ">
+              </div>
+            </form>
+          </div>
+          <div class="poputp-button">
+            <form action="" class="content-shipping">
+              <input type="number">
+              <div class="content-form-span">
+                <span>Առաքման արժեք</span>
+                <span>---- դրամ</span>
+              </div>
+
+            </form>
+          </div>
+        </div>
+    </div>
+</div>
               </ul>
               <div class="inn-sec-12">
                 <a class="logo-12" href="index.html">
@@ -664,6 +711,7 @@
     
 
     <script src="./js/script.js"></script>
+    <script src="./js/calculation.js"></script>
     <script src="./js/jquery.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
