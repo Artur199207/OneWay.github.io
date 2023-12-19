@@ -3,7 +3,410 @@
         background-size: 100% !important;
     }
 }
+@media screen and (min-width:320px) and (max-width:393px){
+    /* LogOn response start */
+    .inn-fir-12 img{
+        width: 24px;
+    }
+    .inn-sec-12{
+        width: unset;
+        position: relative;
+        right: 30px;
+    }
+    .inn-left-li a{
+        font-size: 12px !important;
+    }
+    .login-logo{
+        display: none;
+    }
+    .containerimage-sign-in{
+        display: block;
+    }
+    .wrapper-log-in{
+        padding: 39px 0;
+    }
+    .wrapper-name h3{
+        width: 106px;
+        font-size: 32px;
+    }
+    .wrapper-input span{
+        font-size: 16px;
+    }
+    .container-form1{
+        width: 300px;
+        min-height: unset;
+        height: 50px;
+    }
+    .geekmark{
+        font-size: 13px;
+        width: 13px !important;
+        height: 13px !important;
+    }
+    .main,.content-name-text{
+        font-size: 10px !important;
+    }
+    .main{
+        padding-left: 20px;
+    }
+    .wr-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        font-size: 20px;
+    }
+    .wr-cont{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+    }
 
+.container-form{
+    border: none;
+    box-shadow: none;
+}
+.container-fetch{
+    align-items: center;
+}
+.wrapper-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-flex{
+    align-items: center;
+}
+.wrapper-flex-input{
+    width: 300px;
+}
+.container-form{
+    min-height: unset;
+}
+/* logOn response end */
+
+
+/* signip start response */
+.container-web,.container-paragraf p{
+    display: none;
+}
+.response-block{
+    display: block;
+}
+.container-sign{
+    background-color: unset;
+    padding: 40px 0;
+}
+.container-paragraf h3{
+    font-size: 32px;
+    width: unset;
+}
+.container-sign-input span{
+    font-size: 16px;
+}
+.signUP-contaent{
+    width: 300px;
+    min-height: unset;
+    height: 50px;
+}
+.btn-wrbac,.sign-btn-up{
+    width: 300px;
+}
+.btn-wrbac{
+    margin: 20px 0;
+}
+.sign-left{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+
+}
+.wrapper-form-signUp{
+    min-height: unset;
+    border: none;
+    box-shadow: none;
+
+}
+.container-Sign_Up,.container-paragraf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sign ap end response */
+
+
+.section-middle-one h3{
+    font-size: 20px;
+}
+.hiden-res{
+    width: unset !important;
+    font-size: 14px !important;
+}
+.container-info{
+    display: none;
+}
+.container-slider-response{
+    display: block;
+    position: relative;
+}
+.container-one-block img:nth-child(1),
+.container-two-block img:nth-child(1),
+.container-three-block img:nth-child(1){
+    width:230px ;
+    height: 140px;
+    position: relative;
+    left: 70px;
+}
+.container-two-block img:nth-child(1){
+    left: 28px !important;
+}
+.container-one-block img:nth-child(2),
+.container-two-block img:nth-child(2),
+.container-three-block img:nth-child(2){
+width: 100px;
+position: absolute;
+}
+.container-one-block img:nth-child(2){
+    left: 19px;
+    top: 4%;
+}
+.container-one-block span,.container-two-block span,
+.container-three-block span{
+    font-size: 12px;
+}
+.container-one-block span{
+    position: absolute;
+    left: 128px;
+    top: 10%;
+
+}
+.container-two-block img:nth-child(2){
+    left: 55%;
+    top: 36%;
+}
+.container-two-block span{
+    left: 67px;
+    position: absolute;
+    top: 45%;
+}
+.container-three-block img:nth-child(2){
+    left: 12px;
+    top: 71%;
+}
+.container-three-block span{
+    position: absolute;
+    left: 116px;
+    top: 77%;
+}
+.log-wrapp,.log-wr-s{
+    font-size: 14px !important;
+}
+.vec-58{
+    display: none;
+}
+.how{
+    font-size: 16px !important;
+}
+.player-line{
+    width: 105px;
+}
+.player-left span{
+    font-size: 12px !important;
+    width: 310px;
+}
+.wrapper-btn{
+    width: 265px;
+}
+.wrapper-player-left{
+    display: flex;
+}
+.cont-phone{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-player-left{
+    margin-top: unset;
+}
+
+.container-player{
+    display: none;
+}
+.container-player-resp{
+    display: flex;
+}
+.play-res-inn{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+}
+.play-fr-but{
+    width: 265px;
+}
+.res-play-sec{
+    top: 80px;
+}
+.absolute-img{
+    left: 51px;
+    top: -64px;
+}
+.bot-bottom{
+    top: 100%;
+    left: 77px;
+}
+.res-play-th{
+    height: 252px;
+    justify-content: center;
+}
+.wrapper-navitel,.wrapper-registr>img,.wrapper-registr>span,
+.frame1,.frame2,.frame3,.container-open-lenguage,.wrapper-select,.wrapper-login img:nth-child(1){
+    display: none;
+}
+.wrapper-logo-leng>img{
+    display: block;
+}
+.order-list,.hov-hover{
+    display: none;
+}
+.order-card-response,.order-my{
+    display: block;
+}
+.order-card-response{
+    margin-bottom: 30px;
+}
+.order-my{
+    margin: 5% 0;
+}
+.order-my p{
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+
+
+}
+.order-my-butt{
+    width: 300px;
+    min-height: unset;
+    height: 44px;
+}
+.my-order{
+    width: 320px;
+    min-height: unset;
+}
+.order-ch1 span{
+    font-size: 14px;
+    font-weight: 400; 
+}
+.order-inp-dv{
+    width: 300px;
+}
+.order-middle-ch1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+}
+.order-inp-search{
+    width: 300px !important;
+}
+.order-ch2{
+    width: 300px;
+}
+.my-order-min{
+    min-height: 250px;
+}
+.container-order-bording button{
+    width: 300px;
+    margin: auto;
+}
+.content-open-wrapper {
+    width: 300px;
+    border-radius: 4px;
+    height: 80px;
+    padding-inline: 0;
+    margin: 44px auto;
+}
+.container-open-bording1 button{
+    width: 300px;
+    margin: unset;
+}
+.container-open-bording1{
+    width: 300px;
+    margin: auto;
+}
+.order-list{
+    display: none;
+}
+.order-butt-img{
+    display: none;
+}
+.password-input{
+    border: none;
+background: none;
+    box-shadow: none;
+    width: unset;
+}
+.new-password p{
+    font-size: 20px;
+}
+.pass-inp1 span{
+    font-size: 16px;
+}
+.pass-butt,.password-new-inp{
+    width: 300px;
+}
+.password-new-inp{
+    min-height: unset;
+    height: 50px;
+}
+.new-password{
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    min-height: unset;
+}
+.password-new{
+    min-height: 300px;
+    width: unset;
+}
+.pass-restore,.rest-input{
+    width: unset;
+    margin: 0;
+}
+.pass-restore{
+    min-height: 250px;
+}
+.rest-input{
+background: none;
+border: none;
+box-shadow: none;
+}
+.rest-dv p{
+    font-size: 20px;
+    width: 178px;
+}
+.mail-inp span{
+    font-size: 16px;
+}
+.pass-inp-text{
+    width: 300px;
+    min-height: unset;
+    height: 50px;
+    font-size: 14px;
+}
+.rest-dv{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mail-inp{
+    width: unset;
+}
+
+
+}
 @media screen and (min-width:393px) and (max-width:768px) {
     .content-popup{
         width: 353px;
@@ -645,7 +1048,7 @@ height: 44px !important;
     .new-password {
         justify-content: center;
         padding-inline: 25px;
-        align-items: center;
+        
     }
 
     .pass-inp1 span {
